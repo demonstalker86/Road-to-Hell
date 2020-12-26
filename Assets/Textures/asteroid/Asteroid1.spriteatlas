@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Asteroid1
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+    - {fileID: 2800000, guid: 5d7069c7918a6a44093f35c83ca53ab5, type: 3}
+    - {fileID: 2800000, guid: d9fcf9e5026079540b8cead3b141ab28, type: 3}
+    totalSpriteSurfaceArea: 5489122
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: d9fcf9e5026079540b8cead3b141ab28, type: 3}
+  - {fileID: 5040737802178644431, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+  - {fileID: 974407248169097098, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+  - {fileID: -1159804014374926221, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+  - {fileID: 8653332198213264734, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+  - {fileID: -5843247699499329667, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+  - {fileID: -9058946578751176281, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+  - {fileID: -3323505754212473330, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+  - {fileID: 4086449970734467773, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+  - {fileID: 6968085349004622220, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+  - {fileID: -1883697308132102921, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+  - {fileID: -7468075348158858563, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+  - {fileID: -7426429930412402360, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+  - {fileID: -5101302177787256802, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+  - {fileID: -8327366356043719963, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+  - {fileID: 729962497801333891, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+  - {fileID: 3014683046278230186, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+  - {fileID: -8102205851516313075, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+  - {fileID: 7534364407225930281, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+  - {fileID: 2455559624534081462, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+  - {fileID: -380791534834127927, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+  - {fileID: 4915589549542204677, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+  - {fileID: 3252528546505585477, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+  - {fileID: 2535059353088758048, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+  - {fileID: 1104886570897253993, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+  - {fileID: -671720343944392647, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+  - {fileID: -5417983648956533333, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+  - {fileID: -5796944037805640986, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+  - {fileID: 5409141571011453388, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+  - {fileID: 1216388190252447893, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+  - {fileID: 4140036757220815626, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+  - {fileID: -817182637638879318, guid: c8ed75862b380b244bade732c0820aed, type: 3}
+  - {fileID: 21300000, guid: 5d7069c7918a6a44093f35c83ca53ab5, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - asteroid-sprite-transparent-png-clipart-free-download-ywd-astroid-png-2000_2160
+  - 33899-9-asteroid-photo_1
+  - 33899-9-asteroid-photo_0
+  - 33899-9-asteroid-photo_3
+  - 33899-9-asteroid-photo_2
+  - 33899-9-asteroid-photo_5
+  - 33899-9-asteroid-photo_4
+  - 33899-9-asteroid-photo_7
+  - 33899-9-asteroid-photo_6
+  - 33899-9-asteroid-photo_9
+  - 33899-9-asteroid-photo_8
+  - 33899-9-asteroid-photo_10
+  - 33899-9-asteroid-photo_11
+  - 33899-9-asteroid-photo_12
+  - 33899-9-asteroid-photo_13
+  - 33899-9-asteroid-photo_14
+  - 33899-9-asteroid-photo_15
+  - 33899-9-asteroid-photo_16
+  - 33899-9-asteroid-photo_17
+  - 33899-9-asteroid-photo_18
+  - 33899-9-asteroid-photo_19
+  - 33899-9-asteroid-photo_29
+  - 33899-9-asteroid-photo_28
+  - 33899-9-asteroid-photo_30
+  - 33899-9-asteroid-photo_21
+  - 33899-9-asteroid-photo_20
+  - 33899-9-asteroid-photo_23
+  - 33899-9-asteroid-photo_22
+  - 33899-9-asteroid-photo_25
+  - 33899-9-asteroid-photo_24
+  - 33899-9-asteroid-photo_27
+  - 33899-9-asteroid-photo_26
+  - _346944555
+  m_RenderDataMap: {}
+  m_Tag: Asteroid1
+  m_IsVariant: 0

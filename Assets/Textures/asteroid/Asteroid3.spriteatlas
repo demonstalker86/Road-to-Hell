@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Asteroid3
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: c6c38c91769596742b8bebf6bb39f04d, type: 3}
+    - {fileID: 2800000, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+    totalSpriteSurfaceArea: 575126
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 8569963784303612781, guid: c6c38c91769596742b8bebf6bb39f04d, type: 3}
+  - {fileID: -4070619211885847849, guid: c6c38c91769596742b8bebf6bb39f04d, type: 3}
+  - {fileID: 1561548567574011957, guid: c6c38c91769596742b8bebf6bb39f04d, type: 3}
+  - {fileID: -7242515814855466250, guid: c6c38c91769596742b8bebf6bb39f04d, type: 3}
+  - {fileID: -3424963588659510136, guid: c6c38c91769596742b8bebf6bb39f04d, type: 3}
+  - {fileID: 2800606683917983983, guid: c6c38c91769596742b8bebf6bb39f04d, type: 3}
+  - {fileID: -4850904618515335771, guid: c6c38c91769596742b8bebf6bb39f04d, type: 3}
+  - {fileID: -1126116270940857292, guid: c6c38c91769596742b8bebf6bb39f04d, type: 3}
+  - {fileID: -3719779991183757665, guid: c6c38c91769596742b8bebf6bb39f04d, type: 3}
+  - {fileID: 7384159049765902677, guid: c6c38c91769596742b8bebf6bb39f04d, type: 3}
+  - {fileID: -7652666114803859039, guid: c6c38c91769596742b8bebf6bb39f04d, type: 3}
+  - {fileID: -2674403585074035621, guid: c6c38c91769596742b8bebf6bb39f04d, type: 3}
+  - {fileID: -8685217867102828436, guid: c6c38c91769596742b8bebf6bb39f04d, type: 3}
+  - {fileID: -2572251215724612846, guid: c6c38c91769596742b8bebf6bb39f04d, type: 3}
+  - {fileID: -776471109942875412, guid: c6c38c91769596742b8bebf6bb39f04d, type: 3}
+  - {fileID: -6443954216943340226, guid: c6c38c91769596742b8bebf6bb39f04d, type: 3}
+  - {fileID: 4631596295947106339, guid: c6c38c91769596742b8bebf6bb39f04d, type: 3}
+  - {fileID: 5401335784248012025, guid: c6c38c91769596742b8bebf6bb39f04d, type: 3}
+  - {fileID: -2044477003625196105, guid: c6c38c91769596742b8bebf6bb39f04d, type: 3}
+  - {fileID: 4475134689274105493, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: -4068626722438970285, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: -2267634635551019106, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 2256241177039487627, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: -6861698373418557740, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 6507930453001374304, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 4395267854378155223, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: -4565060803843797441, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 8706639625411551873, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: -7556736145538089040, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: -3693645424122863822, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 1781651873335836160, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: -1297460299021083481, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: -1281217087900806429, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 8915687659612582260, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: -7914561564049218400, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 2548575787330388205, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 6255719709526033942, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 4599946226778459716, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 2051559349299656034, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: -1656159222032985186, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 4977056218586529154, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 1992556692007364540, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 1313645305516308290, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 8705133182465620463, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 9175601727607773273, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: -2977442855658379251, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 573701125444464035, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 8743787090174259252, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 5132555298801302622, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 7409433347907850533, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 561466858611431259, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: -8855883096446787681, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 4883531916760430010, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: -3603811754781502422, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 9084730068775298195, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: -2568936051338559477, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 5617462815268831979, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 9066717242313296265, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 976518622336828661, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 521045848081251153, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: -7656177058164739382, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 4560359301141658313, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 409400361345985609, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 3445722601468680855, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 3957088254610609651, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 4185417956480960081, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 4181760034924983767, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 1558232384680105193, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 8361672889717140965, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: -1342226144789491578, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: -750135824072511215, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: -2060527761691606261, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: -7856436883634659855, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 5640430238210553132, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 4213480587747660424, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: -8011154410095970058, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: -7855225221671842532, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 1154121694704105284, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 9199950834333698382, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 9059800357339481734, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: -4496590174529027270, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: -3637884436900255975, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  - {fileID: 299373688756222881, guid: 56aa15c70960df248be230b3df2d984c, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - asteroid3_18
+  - asteroid3_11
+  - asteroid3_10
+  - asteroid3_13
+  - asteroid3_12
+  - asteroid3_15
+  - asteroid3_14
+  - asteroid3_17
+  - asteroid3_16
+  - asteroid3_2
+  - asteroid3_3
+  - asteroid3_0
+  - asteroid3_1
+  - asteroid3_6
+  - asteroid3_7
+  - asteroid3_4
+  - asteroid3_5
+  - asteroid3_8
+  - asteroid3_9
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_5
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_4
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_7
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_6
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_1
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_0
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_3
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_2
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_9
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_8
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_50
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_51
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_52
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_32
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_53
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_33
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_54
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_30
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_55
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_31
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_25
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_56
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_36
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_24
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_57
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_37
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_27
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_58
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_34
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_26
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_59
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_35
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_21
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_20
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_23
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_38
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_22
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_39
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_29
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_28
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_43
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_42
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_41
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_40
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_47
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_46
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_45
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_44
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_49
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_48
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_18
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_61
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_19
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_60
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_63
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_62
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_14
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_15
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_16
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_17
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_10
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_11
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_12
+  - 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_13
+  m_RenderDataMap: {}
+  m_Tag: Asteroid3
+  m_IsVariant: 0

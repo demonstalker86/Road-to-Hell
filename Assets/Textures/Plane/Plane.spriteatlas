@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Plane
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: d92d82c96aa9ccc418e114ce6b0e7783, type: 3}
+    - {fileID: 2800000, guid: 39448542c8f02504eb6f10bc4b942eba, type: 3}
+    - {fileID: 2800000, guid: 295fcb6c1f097f546be87f8f95afe51a, type: 3}
+    totalSpriteSurfaceArea: 1297544
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 39448542c8f02504eb6f10bc4b942eba, type: 3}
+  - {fileID: 21300000, guid: d92d82c96aa9ccc418e114ce6b0e7783, type: 3}
+  - {fileID: -4101807411320628619, guid: 295fcb6c1f097f546be87f8f95afe51a, type: 3}
+  - {fileID: 5439370032352145196, guid: 295fcb6c1f097f546be87f8f95afe51a, type: 3}
+  - {fileID: 3113142165400431262, guid: 295fcb6c1f097f546be87f8f95afe51a, type: 3}
+  - {fileID: -1413254819171902843, guid: 295fcb6c1f097f546be87f8f95afe51a, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 947b28fe22cbd24edd85037c86101594
+  - aiexxaAxT
+  - fighters_0
+  - fighters_1
+  - fighters_2
+  - fighters_3
+  m_RenderDataMap: {}
+  m_Tag: Plane
+  m_IsVariant: 0

@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SpaceShip
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 8a0046c15b12698428b88e7d8c185232, type: 3}
+    - {fileID: 2800000, guid: 9c0dc9337c6ca0940abfe3eb43741f8d, type: 3}
+    - {fileID: 2800000, guid: 36373c28492bb364da82ec46ba8bb446, type: 3}
+    - {fileID: 2800000, guid: 77d87c38dc5f551438d9a32301fb3f64, type: 3}
+    - {fileID: 2800000, guid: 30c72eecc31c925488357667f9d4b3a4, type: 3}
+    - {fileID: 2800000, guid: 264d45227980a624aa4c8696bc3aeaab, type: 3}
+    - {fileID: 2800000, guid: cba2faae666e8f34e8bfe2ebbb89e991, type: 3}
+    - {fileID: 2800000, guid: a28a85f6dc73565468e77043dc9b9cbc, type: 3}
+    totalSpriteSurfaceArea: 305712
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 8a0046c15b12698428b88e7d8c185232, type: 3}
+  - {fileID: 21300000, guid: 264d45227980a624aa4c8696bc3aeaab, type: 3}
+  - {fileID: 21300000, guid: 9c0dc9337c6ca0940abfe3eb43741f8d, type: 3}
+  - {fileID: -9062304531134733656, guid: a28a85f6dc73565468e77043dc9b9cbc, type: 3}
+  - {fileID: 8964348670299197311, guid: a28a85f6dc73565468e77043dc9b9cbc, type: 3}
+  - {fileID: 7730256063860039076, guid: a28a85f6dc73565468e77043dc9b9cbc, type: 3}
+  - {fileID: 1132676901880397304, guid: a28a85f6dc73565468e77043dc9b9cbc, type: 3}
+  - {fileID: -2191450496024337236, guid: a28a85f6dc73565468e77043dc9b9cbc, type: 3}
+  - {fileID: -8868581108171312049, guid: a28a85f6dc73565468e77043dc9b9cbc, type: 3}
+  - {fileID: -8083001151750224657, guid: a28a85f6dc73565468e77043dc9b9cbc, type: 3}
+  - {fileID: -7515621973919708018, guid: a28a85f6dc73565468e77043dc9b9cbc, type: 3}
+  - {fileID: -3411013259566357033, guid: a28a85f6dc73565468e77043dc9b9cbc, type: 3}
+  - {fileID: 21300000, guid: 36373c28492bb364da82ec46ba8bb446, type: 3}
+  - {fileID: 21300000, guid: 77d87c38dc5f551438d9a32301fb3f64, type: 3}
+  - {fileID: 21300000, guid: 30c72eecc31c925488357667f9d4b3a4, type: 3}
+  - {fileID: 21300000, guid: cba2faae666e8f34e8bfe2ebbb89e991, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Assaultboat
+  - Fighter2B
+  - AssaultboatB
+  - spaceships_1
+  - spaceships_0
+  - spaceships_3
+  - spaceships_2
+  - spaceships_5
+  - spaceships_4
+  - spaceships_7
+  - spaceships_6
+  - spaceships_8
+  - Corvette
+  - DurrrSpaceShip
+  - Fighter2
+  - Fighter3
+  m_RenderDataMap: {}
+  m_Tag: SpaceShip
+  m_IsVariant: 0

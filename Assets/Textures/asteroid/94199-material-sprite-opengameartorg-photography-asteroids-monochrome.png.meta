@@ -1,0 +1,1666 @@
+fileFormatVersion: 2
+guid: 56aa15c70960df248be230b3df2d984c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6507930453001374304
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_0
+  - first:
+      213: -6861698373418557740
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_1
+  - first:
+      213: -4565060803843797441
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_2
+  - first:
+      213: 4395267854378155223
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_3
+  - first:
+      213: -4068626722438970285
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_4
+  - first:
+      213: 4475134689274105493
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_5
+  - first:
+      213: 2256241177039487627
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_6
+  - first:
+      213: -2267634635551019106
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_7
+  - first:
+      213: -7556736145538089040
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_8
+  - first:
+      213: 8706639625411551873
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_9
+  - first:
+      213: 9059800357339481734
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_10
+  - first:
+      213: -4496590174529027270
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_11
+  - first:
+      213: -3637884436900255975
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_12
+  - first:
+      213: 299373688756222881
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_13
+  - first:
+      213: -8011154410095970058
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_14
+  - first:
+      213: -7855225221671842532
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_15
+  - first:
+      213: 1154121694704105284
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_16
+  - first:
+      213: 9199950834333698382
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_17
+  - first:
+      213: -1342226144789491578
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_18
+  - first:
+      213: -2060527761691606261
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_19
+  - first:
+      213: 4883531916760430010
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_20
+  - first:
+      213: -8855883096446787681
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_21
+  - first:
+      213: -2568936051338559477
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_22
+  - first:
+      213: -3603811754781502422
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_23
+  - first:
+      213: 1313645305516308290
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_24
+  - first:
+      213: -1656159222032985186
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_25
+  - first:
+      213: 5132555298801302622
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_26
+  - first:
+      213: -2977442855658379251
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_27
+  - first:
+      213: 976518622336828661
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_28
+  - first:
+      213: 9066717242313296265
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_29
+  - first:
+      213: 6255719709526033942
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_30
+  - first:
+      213: 2051559349299656034
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_31
+  - first:
+      213: -1281217087900806429
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_32
+  - first:
+      213: -7914561564049218400
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_33
+  - first:
+      213: 8743787090174259252
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_34
+  - first:
+      213: 561466858611431259
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_35
+  - first:
+      213: 1992556692007364540
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_36
+  - first:
+      213: 9175601727607773273
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_37
+  - first:
+      213: 9084730068775298195
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_38
+  - first:
+      213: 5617462815268831979
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_39
+  - first:
+      213: 409400361345985609
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_40
+  - first:
+      213: 4560359301141658313
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_41
+  - first:
+      213: -7656177058164739382
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_42
+  - first:
+      213: 521045848081251153
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_43
+  - first:
+      213: 4181760034924983767
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_44
+  - first:
+      213: 4185417956480960081
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_45
+  - first:
+      213: 3957088254610609651
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_46
+  - first:
+      213: 3445722601468680855
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_47
+  - first:
+      213: 8361672889717140965
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_48
+  - first:
+      213: 1558232384680105193
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_49
+  - first:
+      213: -3693645424122863822
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_50
+  - first:
+      213: 1781651873335836160
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_51
+  - first:
+      213: -1297460299021083481
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_52
+  - first:
+      213: 8915687659612582260
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_53
+  - first:
+      213: 2548575787330388205
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_54
+  - first:
+      213: 4599946226778459716
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_55
+  - first:
+      213: 4977056218586529154
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_56
+  - first:
+      213: 8705133182465620463
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_57
+  - first:
+      213: 573701125444464035
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_58
+  - first:
+      213: 7409433347907850533
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_59
+  - first:
+      213: -7856436883634659855
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_60
+  - first:
+      213: -750135824072511215
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_61
+  - first:
+      213: 4213480587747660424
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_62
+  - first:
+      213: 5640430238210553132
+    second: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_63
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 916
+        width: 91
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a081a3440d05a50800000000000000
+      internalID: 6507930453001374304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_1
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 915
+        width: 94
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ded2882fa956c0a0800000000000000
+      internalID: -6861698373418557740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_2
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 912
+        width: 96
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ec4d8b265a5a0c0800000000000000
+      internalID: -4565060803843797441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_3
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 911
+        width: 97
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc37e093d02ffc30800000000000000
+      internalID: 4395267854378155223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_4
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 910
+        width: 98
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3540d5d6d855987c0800000000000000
+      internalID: -4068626722438970285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_5
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 910
+        width: 98
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e06342a4fda1e30800000000000000
+      internalID: 4475134689274105493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_6
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 910
+        width: 97
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b824c0d7567cf4f10800000000000000
+      internalID: 2256241177039487627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_7
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 910
+        width: 93
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9feb9b305eb780e0800000000000000
+      internalID: -2267634635551019106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_8
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 779
+        width: 91
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bff8df4384112790800000000000000
+      internalID: -7556736145538089040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_9
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 778
+        width: 92
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182eefb0c9234d870800000000000000
+      internalID: 8706639625411551873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_10
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 779
+        width: 91
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6864d239c60eabd70800000000000000
+      internalID: 9059800357339481734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_11
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 781
+        width: 92
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a338faa6f07e891c0800000000000000
+      internalID: -4496590174529027270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_12
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 785
+        width: 90
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91763a40163a38dc0800000000000000
+      internalID: -3637884436900255975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_13
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 788
+        width: 90
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1abb965a8c6972400800000000000000
+      internalID: 299373688756222881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_14
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 792
+        width: 88
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8fc694289a2d090800000000000000
+      internalID: -8011154410095970058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_15
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 792
+        width: 89
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d8f879742acf290800000000000000
+      internalID: -7855225221671842532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 661
+        width: 92
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447f8680193440010800000000000000
+      internalID: 1154121694704105284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_17
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 659
+        width: 96
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49c4875a8accaf70800000000000000
+      internalID: 9199950834333698382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_18
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 658
+        width: 99
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6809497ce647f5de0800000000000000
+      internalID: -1342226144789491578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_19
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 657
+        width: 99
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b038a8afae88763e0800000000000000
+      internalID: -2060527761691606261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_20
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 656
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5b9cb776ac5c340800000000000000
+      internalID: 4883531916760430010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_21
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 657
+        width: 96
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f17e78e35991580800000000000000
+      internalID: -8855883096446787681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_22
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 656
+        width: 93
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b004549a54e495cd0800000000000000
+      internalID: -2568936051338559477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_23
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 658
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a241fd68d40bcfdc0800000000000000
+      internalID: -3603811754781502422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_24
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 532
+        width: 90
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247b82402710b3210800000000000000
+      internalID: 1313645305516308290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_25
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 530
+        width: 92
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e939c3756f32409e0800000000000000
+      internalID: -1656159222032985186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_26
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 530
+        width: 95
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5cb91fc9df7a3740800000000000000
+      internalID: 5132555298801302622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_27
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 531
+        width: 96
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0825797f7ffda6d0800000000000000
+      internalID: -2977442855658379251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_28
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 533
+        width: 95
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4c0f0638a4d8d00800000000000000
+      internalID: 976518622336828661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_29
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 534
+        width: 93
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9894efa5b4373dd70800000000000000
+      internalID: 9066717242313296265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_30
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 534
+        width: 90
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61685bc7ee7c0d650800000000000000
+      internalID: 6255719709526033942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_31
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 532
+        width: 91
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26533aacb5a987c10800000000000000
+      internalID: 2051559349299656034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_32
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 402
+        width: 85
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e21383c8d3383ee0800000000000000
+      internalID: -1281217087900806429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_33
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 401
+        width: 85
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4e2edc034d92290800000000000000
+      internalID: -7914561564049218400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_34
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 401
+        width: 87
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430bb7d280c285970800000000000000
+      internalID: 8743787090174259252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_35
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 400
+        width: 88
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5750b4122bbac700800000000000000
+      internalID: 561466858611431259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_36
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 397
+        width: 88
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb72ded11cbf6ab10800000000000000
+      internalID: 1992556692007364540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_37
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 396
+        width: 89
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95895862829465f70800000000000000
+      internalID: 9175601727607773273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_38
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 396
+        width: 89
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39469a55dd1731e70800000000000000
+      internalID: 9084730068775298195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_39
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 398
+        width: 90
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2801bfaac35fd40800000000000000
+      internalID: 5617462815268831979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_40
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 273
+        width: 91
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ca1f4a57b7ea500800000000000000
+      internalID: 409400361345985609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_41
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 272
+        width: 89
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca72b06f96a94f30800000000000000
+      internalID: 4560359301141658313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_42
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 270
+        width: 88
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2789e978bcfb590800000000000000
+      internalID: -7656177058164739382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_43
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 269
+        width: 86
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b339e20702b3700800000000000000
+      internalID: 521045848081251153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_44
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 269
+        width: 84
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5f0a98898980a30800000000000000
+      internalID: 4181760034924983767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_45
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 269
+        width: 82
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156c694c477951a30800000000000000
+      internalID: 4185417956480960081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_46
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 270
+        width: 83
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f59fe05dc66ae630800000000000000
+      internalID: 3957088254610609651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_47
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 272
+        width: 86
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a5317237aa1df20800000000000000
+      internalID: 3445722601468680855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_48
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 143
+        width: 89
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edaa9fe031aa0470800000000000000
+      internalID: 8361672889717140965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_49
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 145
+        width: 91
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e41e561914ff9510800000000000000
+      internalID: 1558232384680105193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_50
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 146
+        width: 95
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23fd8e87e098dbcc0800000000000000
+      internalID: -3693645424122863822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_51
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 146
+        width: 99
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e779f60f2b9b810800000000000000
+      internalID: 1781651873335836160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_52
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 148
+        width: 102
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac1da67bbe7efde0800000000000000
+      internalID: -1297460299021083481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_53
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 149
+        width: 103
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471ba8760b2eabb70800000000000000
+      internalID: 8915687659612582260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_54
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 148
+        width: 102
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de04df6fc2c5e5320800000000000000
+      internalID: 2548575787330388205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_55
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 149
+        width: 100
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e4701c8ba46df30800000000000000
+      internalID: 4599946226778459716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_56
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 19
+        width: 99
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28dbfffd24e021540800000000000000
+      internalID: 4977056218586529154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_57
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 18
+        width: 95
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe93457f188dec870800000000000000
+      internalID: 8705133182465620463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_58
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 18
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3adeb5d422236f700800000000000000
+      internalID: 573701125444464035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_59
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 20
+        width: 91
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5211bf08f5893d660800000000000000
+      internalID: 7409433347907850533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_60
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 22
+        width: 91
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fdddae874458f290800000000000000
+      internalID: -7856436883634659855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_61
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 22
+        width: 89
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111fcd0417bf695f0800000000000000
+      internalID: -750135824072511215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_62
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 20
+        width: 86
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88214b4454a497a30800000000000000
+      internalID: 4213480587747660424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94199-material-sprite-opengameartorg-photography-asteroids-monochrome_63
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 18
+        width: 85
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2579e8da65d64e40800000000000000
+      internalID: 5640430238210553132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

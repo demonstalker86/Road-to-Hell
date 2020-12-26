@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CarP
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 9022f4747f0c1824f96338aa0250f40c, type: 3}
+    - {fileID: 2800000, guid: c2bd2b83d2c3fc04e84d6144d0ed249f, type: 3}
+    - {fileID: 2800000, guid: 4d7277d4e3099d14687f89076388261b, type: 3}
+    - {fileID: 2800000, guid: 2f27fa98af6744346bf4105e1707a2c1, type: 3}
+    - {fileID: 2800000, guid: a92c76142e394c548aba0005717a672f, type: 3}
+    - {fileID: 2800000, guid: 7dde6004e98375043a2aa3b9620f7849, type: 3}
+    - {fileID: 2800000, guid: e8e4ba36562a78844bb5c7abcdb45dd1, type: 3}
+    - {fileID: 2800000, guid: f00cbb912392c0c4fba74a7d0d42d2c3, type: 3}
+    totalSpriteSurfaceArea: 98800
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: f00cbb912392c0c4fba74a7d0d42d2c3, type: 3}
+  - {fileID: 21300000, guid: c2bd2b83d2c3fc04e84d6144d0ed249f, type: 3}
+  - {fileID: 21300000, guid: 7dde6004e98375043a2aa3b9620f7849, type: 3}
+  - {fileID: 21300000, guid: a92c76142e394c548aba0005717a672f, type: 3}
+  - {fileID: 21300000, guid: 9022f4747f0c1824f96338aa0250f40c, type: 3}
+  - {fileID: 21300000, guid: 4d7277d4e3099d14687f89076388261b, type: 3}
+  - {fileID: 21300000, guid: e8e4ba36562a78844bb5c7abcdb45dd1, type: 3}
+  - {fileID: 21300000, guid: 2f27fa98af6744346bf4105e1707a2c1, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - car_people8
+  - car_people2
+  - car_people6
+  - car_people5
+  - car_people1
+  - car_people3
+  - car_people7
+  - car_people4
+  m_RenderDataMap: {}
+  m_Tag: CarP
+  m_IsVariant: 0

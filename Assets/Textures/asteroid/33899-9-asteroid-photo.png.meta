@@ -1,0 +1,874 @@
+fileFormatVersion: 2
+guid: c8ed75862b380b244bade732c0820aed
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 974407248169097098
+    second: 33899-9-asteroid-photo_0
+  - first:
+      213: 5040737802178644431
+    second: 33899-9-asteroid-photo_1
+  - first:
+      213: 8653332198213264734
+    second: 33899-9-asteroid-photo_2
+  - first:
+      213: -1159804014374926221
+    second: 33899-9-asteroid-photo_3
+  - first:
+      213: -9058946578751176281
+    second: 33899-9-asteroid-photo_4
+  - first:
+      213: -5843247699499329667
+    second: 33899-9-asteroid-photo_5
+  - first:
+      213: 4086449970734467773
+    second: 33899-9-asteroid-photo_6
+  - first:
+      213: -3323505754212473330
+    second: 33899-9-asteroid-photo_7
+  - first:
+      213: -1883697308132102921
+    second: 33899-9-asteroid-photo_8
+  - first:
+      213: 6968085349004622220
+    second: 33899-9-asteroid-photo_9
+  - first:
+      213: -7468075348158858563
+    second: 33899-9-asteroid-photo_10
+  - first:
+      213: -7426429930412402360
+    second: 33899-9-asteroid-photo_11
+  - first:
+      213: -5101302177787256802
+    second: 33899-9-asteroid-photo_12
+  - first:
+      213: -8327366356043719963
+    second: 33899-9-asteroid-photo_13
+  - first:
+      213: 729962497801333891
+    second: 33899-9-asteroid-photo_14
+  - first:
+      213: 3014683046278230186
+    second: 33899-9-asteroid-photo_15
+  - first:
+      213: -8102205851516313075
+    second: 33899-9-asteroid-photo_16
+  - first:
+      213: 7534364407225930281
+    second: 33899-9-asteroid-photo_17
+  - first:
+      213: 2455559624534081462
+    second: 33899-9-asteroid-photo_18
+  - first:
+      213: -380791534834127927
+    second: 33899-9-asteroid-photo_19
+  - first:
+      213: -671720343944392647
+    second: 33899-9-asteroid-photo_20
+  - first:
+      213: 1104886570897253993
+    second: 33899-9-asteroid-photo_21
+  - first:
+      213: -5796944037805640986
+    second: 33899-9-asteroid-photo_22
+  - first:
+      213: -5417983648956533333
+    second: 33899-9-asteroid-photo_23
+  - first:
+      213: 1216388190252447893
+    second: 33899-9-asteroid-photo_24
+  - first:
+      213: 5409141571011453388
+    second: 33899-9-asteroid-photo_25
+  - first:
+      213: -817182637638879318
+    second: 33899-9-asteroid-photo_26
+  - first:
+      213: 4140036757220815626
+    second: 33899-9-asteroid-photo_27
+  - first:
+      213: 3252528546505585477
+    second: 33899-9-asteroid-photo_28
+  - first:
+      213: 4915589549542204677
+    second: 33899-9-asteroid-photo_29
+  - first:
+      213: 2535059353088758048
+    second: 33899-9-asteroid-photo_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 33899-9-asteroid-photo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 472
+        width: 287
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a875fa5ca3ac58d00800000000000000
+      internalID: 974407248169097098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33899-9-asteroid-photo_1
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 561
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9cdb8f25c44f540800000000000000
+      internalID: 5040737802178644431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33899-9-asteroid-photo_2
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 513
+        width: 240
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55a3f579cfc61870800000000000000
+      internalID: 8653332198213264734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33899-9-asteroid-photo_3
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 520
+        width: 307
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3784c12d46c87efe0800000000000000
+      internalID: -1159804014374926221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33899-9-asteroid-photo_4
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 547
+        width: 269
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1cb4e3518284280800000000000000
+      internalID: -9058946578751176281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33899-9-asteroid-photo_5
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 559
+        width: 230
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7759b81d2d98eea0800000000000000
+      internalID: -5843247699499329667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33899-9-asteroid-photo_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 287
+        width: 277
+        height: 182
+      alignment: 9
+      pivot: {x: 0.05578531, y: -0.5822019}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba8802f89cf5b830800000000000000
+      internalID: 4086449970734467773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33899-9-asteroid-photo_7
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 514
+        width: 243
+        height: 236
+      alignment: 9
+      pivot: {x: 0.5555395, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06e23f002980e1d0800000000000000
+      internalID: -3323505754212473330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33899-9-asteroid-photo_8
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 129
+        width: 267
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5317049, y: 0.59322375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc2d6c4743cbd5e0800000000000000
+      internalID: -1883697308132102921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33899-9-asteroid-photo_9
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 133
+        width: 140
+        height: 150
+      alignment: 9
+      pivot: {x: 0.54480743, y: 0.58716434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c893608d4bc93b060800000000000000
+      internalID: 6968085349004622220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33899-9-asteroid-photo_10
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 288
+        width: 169
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbab325d9011c5890800000000000000
+      internalID: -7468075348158858563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33899-9-asteroid-photo_11
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 344
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8499070435500f890800000000000000
+      internalID: -7426429930412402360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33899-9-asteroid-photo_12
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 295
+        width: 226
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10601972b88439b0800000000000000
+      internalID: -5101302177787256802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33899-9-asteroid-photo_13
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 299
+        width: 236
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea99716b604f6c80800000000000000
+      internalID: -8327366356043719963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33899-9-asteroid-photo_14
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 302
+        width: 185
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c2ec43609512a00800000000000000
+      internalID: 729962497801333891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33899-9-asteroid-photo_15
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 302
+        width: 138
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa07ec3124e46d920800000000000000
+      internalID: 3014683046278230186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33899-9-asteroid-photo_16
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 313
+        width: 218
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02674394be2f8f80800000000000000
+      internalID: -8102205851516313075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33899-9-asteroid-photo_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 130
+        width: 149
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9225c0572807f8860800000000000000
+      internalID: 7534364407225930281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33899-9-asteroid-photo_18
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 136
+        width: 171
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf3529e776e31220800000000000000
+      internalID: 2455559624534081462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33899-9-asteroid-photo_19
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 139
+        width: 147
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb6cb8dd1827baf0800000000000000
+      internalID: -380791534834127927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33899-9-asteroid-photo_20
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 140
+        width: 264
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9309ac6f7e19da6f0800000000000000
+      internalID: -671720343944392647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33899-9-asteroid-photo_21
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 141
+        width: 313
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9662e677b78555f00800000000000000
+      internalID: 1104886570897253993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33899-9-asteroid-photo_22
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 147
+        width: 139
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2b6c37c1e1d8fa0800000000000000
+      internalID: -5796944037805640986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33899-9-asteroid-photo_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 141
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba53215b3947fc4b0800000000000000
+      internalID: -5417983648956533333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33899-9-asteroid-photo_24
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 0
+        width: 183
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5983af44d9a71e010800000000000000
+      internalID: 1216388190252447893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33899-9-asteroid-photo_25
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 21
+        width: 123
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1afe79991211b40800000000000000
+      internalID: 5409141571011453388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33899-9-asteroid-photo_26
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 24
+        width: 116
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7faee78b8c8a4f0800000000000000
+      internalID: -817182637638879318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33899-9-asteroid-photo_27
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 27
+        width: 139
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03f43fee7d547930800000000000000
+      internalID: 4140036757220815626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33899-9-asteroid-photo_28
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 29
+        width: 128
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543784cfa7d432d20800000000000000
+      internalID: 3252528546505585477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33899-9-asteroid-photo_29
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 30
+        width: 128
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505e512c6aea73440800000000000000
+      internalID: 4915589549542204677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 33899-9-asteroid-photo_30
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 59
+        width: 93
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0211361ec075e2320800000000000000
+      internalID: 2535059353088758048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
