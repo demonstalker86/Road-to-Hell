@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class SpawnEnemy : MonoBehaviour
 {
-    public GameObject[] plane;
+    public GameObject[] obj;
     private float[] position = { -2.58f, -0.83f, 0.92f, 2.49f };
     void Start()
     {
@@ -16,7 +16,7 @@ public class SpawnEnemy : MonoBehaviour
             while (true)
             {
                 Instantiate(
-                    plane[Random.Range(0, plane.Length)],
+                    obj[Random.Range(0, obj.Length)],
                     new Vector3(position[Random.Range(0, 4)], Random.Range(8f,10f), -1),
                     Quaternion.Euler(new Vector3(0, 0, 180)));
                 yield return new WaitForSeconds(5f);

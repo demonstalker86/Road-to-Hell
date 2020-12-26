@@ -40,8 +40,7 @@ public class GameController2 : MonoBehaviour
         if (triger)
         {
             UpdateText();
-            TakeDamage();
-            
+            TakeDamage();            
         }
         Controller();
         JoyController();

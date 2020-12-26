@@ -1579,6 +1579,25 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 4197565349814407959}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1014430930
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014430929}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0986e55fba88f2b48bdbd1fb60986468, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!82 &1014430935
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2640,6 +2659,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1617795459}
   m_CullTransparentMesh: 0
+--- !u!1 &1629914016
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1629914017}
+  - component: {fileID: 1629914018}
+  m_Layer: 0
+  m_Name: SpawnEnemy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1629914017
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629914016}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1774030720}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1629914018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629914016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 680bae7860476af49975a403c5e3158c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj:
+  - {fileID: 3268654158999976616, guid: 3c950b82df2c6684fa81a1ab79aa2388, type: 3}
+  - {fileID: 2786540116624940975, guid: 369e256d717f48e4ba6ab4a0d67ab7af, type: 3}
+  - {fileID: 6620989987789875139, guid: f220db656c2df3045ace9b318d10009a, type: 3}
+  - {fileID: 1622560297404276100, guid: 4f3e96c74593ad14d811fe2c0f6a1b82, type: 3}
+  - {fileID: 5397912152481310797, guid: 8771e70ddbf808940928a4cfe51bebba, type: 3}
+  - {fileID: 6841249920457468255, guid: 4b55dbfa1a686bd4eb72791af6cf20b7, type: 3}
+  - {fileID: 7040844587630878386, guid: e6e953f8506c1b14ea4499f956ddc2c3, type: 3}
+  - {fileID: 2982220424708071047, guid: 4e4f133ed7cf9f64cb893cd881fc3d92, type: 3}
+  - {fileID: 7547123961300161216, guid: 9f5d3bb0f3c1590448ab85d51f1fdb7d, type: 3}
 --- !u!1 &1670066378
 GameObject:
   m_ObjectHideFlags: 0
@@ -3001,6 +3073,7 @@ Transform:
   - {fileID: 2001350820}
   - {fileID: 506516307}
   - {fileID: 1800998084}
+  - {fileID: 1629914017}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3717,9 +3790,24 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 795735453852668570, guid: eb0a052a5bc5b904bade0c6c187af0c1,
         type: 3}
+      propertyPath: hp
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 795735453852668570, guid: eb0a052a5bc5b904bade0c6c187af0c1,
+        type: 3}
       propertyPath: speed
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 795735453852668570, guid: eb0a052a5bc5b904bade0c6c187af0c1,
+        type: 3}
+      propertyPath: animat
+      value: 
+      objectReference: {fileID: 1014430930}
+    - target: {fileID: 795735453852668570, guid: eb0a052a5bc5b904bade0c6c187af0c1,
+        type: 3}
+      propertyPath: hpText
+      value: 
+      objectReference: {fileID: 1670066380}
     - target: {fileID: 795735453852668570, guid: eb0a052a5bc5b904bade0c6c187af0c1,
         type: 3}
       propertyPath: backobj

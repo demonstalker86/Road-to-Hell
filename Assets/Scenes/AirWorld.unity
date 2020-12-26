@@ -557,6 +557,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
 --- !u!223 &102787533
 Canvas:
   m_ObjectHideFlags: 0
@@ -798,6 +799,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -1081,7 +1083,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 680bae7860476af49975a403c5e3158c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  plane:
+  obj:
   - {fileID: 8708620241012770510, guid: 746ca0ae1faf315498d840b08c9c9192, type: 3}
   - {fileID: 1294625713035400340, guid: ddb4a224ad318f64c9c039c4fe768107, type: 3}
   - {fileID: 5667824666967768866, guid: 29a64d04c5a52494d8b242b906362694, type: 3}
@@ -1235,6 +1237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -1501,6 +1504,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -2489,6 +2493,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -3008,8 +3013,6 @@ MonoBehaviour:
   hpText: {fileID: 1817101184}
   rb: {fileID: 1788069719}
   animat: {fileID: 1788069723}
-  move: 0
-  move2: 0
   joystick: {fileID: 1651784027}
   joystick2: {fileID: 1601136605}
   gameObj: {fileID: 101799344}
@@ -3323,6 +3326,7 @@ MonoBehaviour:
   m_StopNaN: 0
   m_Dithering: 0
   m_ClearDepth: 1
+  m_AllowXRRendering: 1
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
