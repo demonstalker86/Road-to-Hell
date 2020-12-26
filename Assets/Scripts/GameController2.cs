@@ -5,13 +5,12 @@ public class GameController2 : MonoBehaviour
 {
     [Header("Параметры")]
     public float speed;
-    [Space]
-    public float move;
-    [Space]
-    public float move2;
-    [Space]
+
     [Header("Физика")]
     public Rigidbody2D rb;
+
+    public Joystick joystick;
+    public Joystick joystick2;
 
     void Start()
     {
@@ -19,12 +18,10 @@ public class GameController2 : MonoBehaviour
     }
 
     void FixedUpdate()
-    {
-        //move = Input.GetAxisRaw("Horizontal");
-        rb.AddForce(rb.transform.right * move * speed);
-        //move2 = Input.GetAxisRaw("Vertical");
-        rb.AddForce(rb.transform.up * move2 * speed);
+    {       
         Controller();
+        JoyController();
+        JoyController2();
     }
     void Controller()
     {
@@ -47,6 +44,48 @@ public class GameController2 : MonoBehaviour
         {
 
             rb.AddForce(rb.transform.right * speed);
+        }
+
+    }
+
+    public void JoyController()
+    {
+        if (joystick.Horizontal > 0.1f)
+        {
+            rb.AddForce(rb.transform.right * speed);
+        }
+        else if (joystick.Horizontal < -0.1f)
+        {
+            rb.AddForce(-rb.transform.right * speed);
+        }
+        else if (joystick.Vertical > 0.1f)
+        {
+            rb.AddForce(rb.transform.up * speed);
+        }
+        else if (joystick.Vertical < -0.1f)
+        {
+            rb.AddForce(-rb.transform.up * speed);
+        }
+
+    }
+
+    public void JoyController2()
+    {
+        if (joystick2.Horizontal > 0.1f)
+        {
+            rb.AddForce(rb.transform.right * speed);
+        }
+        else if (joystick2.Horizontal < -0.1f)
+        {
+            rb.AddForce(-rb.transform.right * speed);
+        }
+        else if (joystick2.Vertical > 0.1f)
+        {
+            rb.AddForce(rb.transform.up * speed);
+        }
+        else if (joystick2.Vertical < -0.1f)
+        {
+            rb.AddForce(-rb.transform.up * speed);
         }
 
     }
