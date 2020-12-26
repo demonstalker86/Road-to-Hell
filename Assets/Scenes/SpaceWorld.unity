@@ -2552,7 +2552,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 200
   hp: 50
-  maxHP: 50
+  maxHp: 50
   hpText: {fileID: 1818854986}
   rb: {fileID: 1260863958}
   animat: {fileID: 1260863963}

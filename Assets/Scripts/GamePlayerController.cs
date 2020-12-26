@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -20,8 +21,7 @@ public class GamePlayerController : MonoBehaviour
     [Header("Анимация")]
     public Animator animat;
 
-    [HideInInspector] public float move;
-    [HideInInspector] public float move2;
+   
 
     [SerializeField] Joystick  joystick;
     [SerializeField] Joystick joystick2;
@@ -29,6 +29,7 @@ public class GamePlayerController : MonoBehaviour
     [SerializeField] GameObject backobj;
     void Start()
     {
+        StartCoroutine(Regenerate());
         hpText.text = ((int)hp).ToString();
         rb = GetComponent<Rigidbody2D>();
         damage = FindObjectOfType<NPC_PlaneController>().damage;
@@ -41,11 +42,7 @@ public class GamePlayerController : MonoBehaviour
         {
             UpdateText();
             TakeDamage();           
-        }
-        //move = Input.GetAxisRaw("Horizontal");
-        rb.AddForce(rb.transform.up * move * speed);
-        //move2 = Input.GetAxisRaw("Vertical");
-        rb.AddForce(rb.transform.right * move2 * speed);
+        }       
         Controller();
         JoyController();
         JoyController2();
@@ -133,6 +130,22 @@ public class GamePlayerController : MonoBehaviour
     void UpdateText()
     {
         hpText.text = ((int)hp).ToString();
+    }
+
+    IEnumerator Regenerate()
+    {
+        if (hp > 0)
+        {
+            yield return new WaitForSeconds(1);
+            hp += 30 * Time.deltaTime;
+            hpText.text = ((int)hp).ToString();
+        }
+        Repeat();
+    }
+
+    void Repeat()
+    {
+        StartCoroutine(Regenerate());
     }
 
 

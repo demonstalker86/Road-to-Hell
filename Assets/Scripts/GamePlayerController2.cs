@@ -21,8 +21,7 @@ public class GamePlayerController2 : MonoBehaviour
     [Header("Анимация")]
     public Animator animat;
 
-    [HideInInspector] public float move;
-    [HideInInspector] public float move2;
+   
 
     public Joystick joystick;
     public Joystick joystick2;
@@ -48,11 +47,7 @@ public class GamePlayerController2 : MonoBehaviour
             UpdateText();
             TakeDamage();
             TakeDamage2();
-        }
-        //move = Input.GetAxisRaw("Horizontal");
-        rb.AddForce(rb.transform.up * move * speed);
-        //move2 = Input.GetAxisRaw("Vertical");
-        rb.AddForce(rb.transform.right * move2 * speed);
+        }        
         Controller();
         JoyController();
         JoyController2();        
@@ -162,7 +157,7 @@ public class GamePlayerController2 : MonoBehaviour
            yield return new WaitForSeconds(1);
            hp += 30 * Time.deltaTime;
            hpText.text = ((int)hp).ToString();           
-         }       
+        }       
         Repeat();
     }
 

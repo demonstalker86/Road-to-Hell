@@ -146,5 +146,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 7
-  damage: 6
+  damage: 4
   arb: {fileID: 1312525219342557914}
