@@ -147,6 +147,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4.8
+  damage: 7
+  timeToDeath: 8
   srb: {fileID: 6998774744126358042}
 --- !u!82 &-7872915902981887221
 AudioSource:

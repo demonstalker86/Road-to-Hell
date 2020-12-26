@@ -1,24 +1,48 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameController2 : MonoBehaviour
 {
     [Header("Параметры")]
     public float speed;
-
+    [Space]
+    public float hp;
+    [Space]
+    int damage;
+    [Space]
+    public Text hpText;
+    [Space]
+    bool triger;
     [Header("Физика")]
     public Rigidbody2D rb;
+    [Space]
+    [Header("Анимация")]
+    public Animator animat;
 
     public Joystick joystick;
     public Joystick joystick2;
+    [SerializeField] GameObject gameObj;
+    [SerializeField] GameObject backobj;
 
     void Start()
     {
+        StartCoroutine(Regenerate());
+        hpText.text = ((int)hp).ToString();
         rb = GetComponent<Rigidbody2D>();
+        damage = FindObjectOfType<NPC_shipController>().damage;
+        animat = GetComponent<Animator>();
     }
 
     void FixedUpdate()
-    {       
+    {
+        if (triger)
+        {
+            UpdateText();
+            TakeDamage();
+            
+        }
         Controller();
         JoyController();
         JoyController2();
@@ -89,12 +113,56 @@ public class GameController2 : MonoBehaviour
         }
 
     }
+
+    void TakeDamage()
+    {
+        hp -= damage * Time.deltaTime;
+
+        if (hp < 0)
+        {
+            hp = 0;
+            Destroy(gameObject);
+            gameObj.SetActive(true);
+            Time.timeScale = 0f;
+            backobj.SetActive(false);
+        }
+    }
+
+    void UpdateText()
+    {
+        hpText.text = ((int)hp).ToString();
+    }
+
+    IEnumerator Regenerate()
+    {
+        if (hp > 0)
+        {
+            yield return new WaitForSeconds(1);
+            hp += 30 * Time.deltaTime;
+            hpText.text = ((int)hp).ToString();
+        }
+        Repeat();
+    }
+
+    void Repeat()
+    {
+        StartCoroutine(Regenerate());
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Ship"))
         {
-            Destroy(gameObject);
-            SceneManager.LoadScene("Game Over");
+            Destroy(collision.gameObject);
+            triger = true;
+            TakeDamage();
+            animat.SetBool("EnemyDamage", true);
         }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        triger = false;
+        animat.SetBool("EnemyDamage", false);
+
     }
 }
