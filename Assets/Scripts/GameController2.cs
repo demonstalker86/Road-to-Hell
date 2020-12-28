@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameController2 : MonoBehaviour
@@ -31,7 +30,7 @@ public class GameController2 : MonoBehaviour
         StartCoroutine(Regenerate());
         hpText.text = ((int)hp).ToString();
         rb = GetComponent<Rigidbody2D>();
-        damage = FindObjectOfType<NPC_shipController>().damage;
+        //damage = FindObjectOfType<NPC_shipController>().damage;
         animat = GetComponent<Animator>();
     }
 
