@@ -6,7 +6,7 @@ public class NPC_shipController : MonoBehaviour
     [Header("Параметры")]
     public float speed;
     [Space]
-    //public int damage;
+    public int damage;
     [Space]
     public int timeToDeath;
     [Header("Физика")]

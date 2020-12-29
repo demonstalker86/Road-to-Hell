@@ -152,6 +152,7 @@ public class GamePlayerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("AirPlane"))
         {
+
             triger = true;
             TakeDamage();
             animat.SetBool("EnemyDamage", true);
@@ -159,6 +160,7 @@ public class GamePlayerController : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
+        Destroy(collision.gameObject);
         triger = false;
         animat.SetBool("EnemyDamage", false);
     }

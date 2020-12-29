@@ -21,10 +21,10 @@ public class GamePlayerController2 : MonoBehaviour
     [Header("Анимация")]
     public Animator animat;
 
-   
 
-    public Joystick joystick;
-    public Joystick joystick2;
+
+    [SerializeField] Joystick joystick;
+    [SerializeField] Joystick joystick2;
     [SerializeField] GameObject gameObj;
     [SerializeField] GameObject backobj;
 
@@ -171,7 +171,7 @@ public class GamePlayerController2 : MonoBehaviour
        
         if (collision.gameObject.CompareTag("SpaceShip"))
         {
-            Destroy(collision.gameObject);
+            
             triger = true;
             TakeDamage2();
             animat.SetBool("EnemyDamage",true);            
@@ -179,7 +179,7 @@ public class GamePlayerController2 : MonoBehaviour
 
         if (collision.gameObject.CompareTag("asteroid"))
         {
-            Destroy(collision.gameObject);
+            
             triger = true;
             TakeDamage();
             animat.SetBool("EnemyDamage",true);
@@ -189,6 +189,7 @@ public class GamePlayerController2 : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
+        Destroy(collision.gameObject);
         triger = false;
         animat.SetBool("EnemyDamage", false);
         
