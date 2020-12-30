@@ -189,9 +189,19 @@ public class GamePlayerController2 : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        Destroy(collision.gameObject);
-        triger = false;
-        animat.SetBool("EnemyDamage", false);
+            if (collision.gameObject.CompareTag("SpaceShip"))
+        {
+            Destroy(collision.gameObject);
+            triger = false;
+            animat.SetBool("EnemyDamage", false);
+        }
+            if (collision.gameObject.CompareTag("asteroid"))
+        {
+            Destroy(collision.gameObject);
+            triger = false;
+            animat.SetBool("EnemyDamage", false);
+        }
+                
         
     }
 }

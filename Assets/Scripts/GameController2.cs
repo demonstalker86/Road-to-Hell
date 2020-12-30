@@ -151,7 +151,6 @@ public class GameController2 : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ship"))
         {
-            Destroy(collision.gameObject);
             triger = true;
             TakeDamage();
             animat.SetBool("EnemyDamage", true);
@@ -159,8 +158,13 @@ public class GameController2 : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        triger = false;
-        animat.SetBool("EnemyDamage", false);
+        if (collision.gameObject.CompareTag("Ship"))
+        {
+            Destroy(collision.gameObject);
+            triger = false;
+            animat.SetBool("EnemyDamage", false);
+        }
+           
 
     }
 }
