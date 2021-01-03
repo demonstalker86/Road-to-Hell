@@ -30,7 +30,7 @@ public class GameController2 : MonoBehaviour
         StartCoroutine(Regenerate());
         hpText.text = ((int)hp).ToString();
         rb = GetComponent<Rigidbody2D>();
-        damage = FindObjectOfType<NPC_shipController>().damage;
+        damage = GameObject.FindWithTag("Ship").GetComponent<NPC_shipController>().damage;
         animat = GetComponent<Animator>();
     }
 

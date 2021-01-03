@@ -31,7 +31,7 @@ public class GamePlayerController : MonoBehaviour
         StartCoroutine(Regenerate());
         hpText.text = ((int)hp).ToString();
         rb = GetComponent<Rigidbody2D>();
-        damage = FindObjectOfType<NPC_PlaneController>().damage;
+        damage = GameObject.FindWithTag("AirPlane").GetComponent<NPC_PlaneController>().damage;
         animat = GetComponent<Animator>();
     }
 
