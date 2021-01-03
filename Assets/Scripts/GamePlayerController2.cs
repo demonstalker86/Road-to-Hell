@@ -34,8 +34,8 @@ public class GamePlayerController2 : MonoBehaviour
        StartCoroutine(Regenerate());
        hpText.text = ((int)hp).ToString();
        rb = GetComponent<Rigidbody2D>();
-       damage2 = FindObjectOfType<AsteroidController>().damage;
-       damage1 = FindObjectOfType<NPC_SpaceController>().damage;
+        damage2 = GameObject.FindWithTag("asteroid").GetComponent<AsteroidController>().damage;
+        damage1 = GameObject.FindWithTag("SpaceShip").GetComponent<NPC_SpaceController>().damage;
        animat = GetComponent<Animator>();
        
     }   
