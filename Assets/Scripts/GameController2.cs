@@ -2,6 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class GameController2 : MonoBehaviour
 {
     [Header("Параметры")]
@@ -13,24 +14,26 @@ public class GameController2 : MonoBehaviour
     [Space]
     public Text hpText;
     [Space]
-    bool triger;
     [Header("Физика")]
     public Rigidbody2D rb;
     [Space]
+    bool triger;
     [Header("Анимация")]
     public Animator animat;
-
+    [Header("Система управления")]
     public Joystick joystick;
     public Joystick joystick2;
+    [Header("Объекты")]
     [SerializeField] GameObject gameObj;
+    [Space]
     [SerializeField] GameObject backobj;
 
     void Start()
     {
         StartCoroutine(Regenerate());
         hpText.text = ((int)hp).ToString();
-        rb = GetComponent<Rigidbody2D>();
-        damage = GameObject.FindWithTag("Ship").GetComponent<NPC_shipController>().damage;
+        rb = GetComponent<Rigidbody2D>();        
+        damage = FindObjectOfType<NPC_shipController>().damage;
         animat = GetComponent<Animator>();
     }
 

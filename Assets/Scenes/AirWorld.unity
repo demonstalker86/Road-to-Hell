@@ -1052,7 +1052,7 @@ GameObject:
   - component: {fileID: 483437617}
   m_Layer: 0
   m_Name: SpawnEnemy
-  m_TagString: Untagged
+  m_TagString: AirPlane
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3099,6 +3099,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4607129709988671844, guid: 9fb997ca35fc82f4db87bbf62501090b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4607129709988671844, guid: 9fb997ca35fc82f4db87bbf62501090b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4607129709988671844, guid: 9fb997ca35fc82f4db87bbf62501090b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 4607129709988671846, guid: 9fb997ca35fc82f4db87bbf62501090b,
         type: 3}
       propertyPath: m_RootOrder
@@ -3179,6 +3194,11 @@ PrefabInstance:
       propertyPath: joystick2
       value: 
       objectReference: {fileID: 1601136605}
+    - target: {fileID: 4607129709988671849, guid: 9fb997ca35fc82f4db87bbf62501090b,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9fb997ca35fc82f4db87bbf62501090b, type: 3}
 --- !u!1001 &8039092956115985210

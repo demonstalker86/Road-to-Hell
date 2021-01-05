@@ -13,7 +13,7 @@ public class NPC_shipController : MonoBehaviour
     public Rigidbody2D srb;
     void Start()
     {
-        srb = GetComponent<Rigidbody2D>();
+        srb = GetComponent<Rigidbody2D>();       
         StartCoroutine(selfDestroying());
     }
 

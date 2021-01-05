@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 254919229480467347}
   - component: {fileID: 8196742624142273474}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Parcel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 851102425020015603}
   - component: {fileID: 6254900165238736970}
   - component: {fileID: 3000508275266943765}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Player 1
   m_TagString: Player
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -230,3 +230,4 @@ MonoBehaviour:
   speed: 5
   move: 0
   move2: 0
+  rb: {fileID: 0}
