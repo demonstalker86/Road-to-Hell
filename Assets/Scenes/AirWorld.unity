@@ -1083,7 +1083,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 680bae7860476af49975a403c5e3158c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obj:
+  gmobj:
   - {fileID: 8708620241012770510, guid: 746ca0ae1faf315498d840b08c9c9192, type: 3}
   - {fileID: 1294625713035400340, guid: ddb4a224ad318f64c9c039c4fe768107, type: 3}
   - {fileID: 5667824666967768866, guid: 29a64d04c5a52494d8b242b906362694, type: 3}
@@ -3073,6 +3073,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 420167230}
+  gmobj: {fileID: 0}
+  bcobj: {fileID: 0}
   timeLeft: 40
   sceneIndex: 18
 --- !u!114 &2112685675

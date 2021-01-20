@@ -8,7 +8,7 @@ public class NPC_SpaceController : MonoBehaviour
     [Space]
     public int timeToDeath;
     [Space]
-    public int damage;
+    //public int damage;
 
     [Header("Физика")]
     public Rigidbody2D srb;

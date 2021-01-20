@@ -10,7 +10,7 @@ public class GameController2 : MonoBehaviour
     [Space]
     public float hp;
     [Space]
-    int damage;
+    //int damage;
     [Space]
     public Text hpText;
     [Space]
@@ -32,8 +32,8 @@ public class GameController2 : MonoBehaviour
     {
         StartCoroutine(Regenerate());
         hpText.text = ((int)hp).ToString();
-        rb = GetComponent<Rigidbody2D>();        
-        damage = FindObjectOfType<NPC_shipController>().damage;
+        rb = GetComponent<Rigidbody2D>();
+        //damage = GetComponent<NPC_shipController>().damage;
         animat = GetComponent<Animator>();
     }
 
@@ -117,7 +117,7 @@ public class GameController2 : MonoBehaviour
 
     void TakeDamage()
     {
-        hp -= damage * Time.deltaTime;
+        hp -= 10 * Time.deltaTime;
 
         if (hp < 0)
         {
@@ -142,6 +142,8 @@ public class GameController2 : MonoBehaviour
             hp += 30 * Time.deltaTime;
             hpText.text = ((int)hp).ToString();
         }
+        if (hp > 80)
+            hp = 80;
         Repeat();
     }
 

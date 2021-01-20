@@ -5,7 +5,9 @@ using UnityEngine.SceneManagement;
 public class Timer : MonoBehaviour
 {
     //[Header("Индикатор")]
-    public Text timerText;    
+    public Text timerText;
+    [SerializeField] GameObject gmobj;
+    [SerializeField] GameObject bcobj;
     //public Slider mySlider;
 
 

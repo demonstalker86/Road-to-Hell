@@ -5,7 +5,7 @@ public class AsteroidController : MonoBehaviour
     [Header("Параметры")]
     public float speed;
     [Space]
-    public int damage;
+    //public int damage;
     [Header("Физика")]
     public Rigidbody2D arb;
     void Awake()

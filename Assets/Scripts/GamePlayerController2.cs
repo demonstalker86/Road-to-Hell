@@ -9,8 +9,8 @@ public class GamePlayerController2 : MonoBehaviour
     [Space]
     public float hp;    
     [Space]
-    int damage2;
-    int damage1;
+    //int damage2;
+    //int damage1;
     [Space]
     public Text hpText;
     [Space]
@@ -34,8 +34,8 @@ public class GamePlayerController2 : MonoBehaviour
        StartCoroutine(Regenerate());
        hpText.text = ((int)hp).ToString();
        rb = GetComponent<Rigidbody2D>();
-        damage2 = GameObject.FindWithTag("asteroid").GetComponent<AsteroidController>().damage;
-        damage1 = GameObject.FindWithTag("SpaceShip").GetComponent<NPC_SpaceController>().damage;
+        //damage2 = GameObject.FindWithTag("asteroid").GetComponent<AsteroidController>().damage;
+        //damage1 = GameObject.FindWithTag("SpaceShip").GetComponent<NPC_SpaceController>().damage;
        animat = GetComponent<Animator>();
        
     }   
@@ -122,7 +122,7 @@ public class GamePlayerController2 : MonoBehaviour
 
     void TakeDamage()
     {
-        hp -= damage2 * Time.deltaTime;
+        hp -= 12 * Time.deltaTime;
 
         if (hp < 0)
         {
@@ -135,7 +135,7 @@ public class GamePlayerController2 : MonoBehaviour
     }
     void TakeDamage2()
     {
-        hp -= damage1 * Time.deltaTime;
+        hp -= 10 * Time.deltaTime;
 
         if (hp < 0)
         {
@@ -157,7 +157,9 @@ public class GamePlayerController2 : MonoBehaviour
            yield return new WaitForSeconds(1);
            hp += 30 * Time.deltaTime;
            hpText.text = ((int)hp).ToString();           
-        }       
+        }
+        if (hp > 50)
+            hp = 50;
         Repeat();
     }
 

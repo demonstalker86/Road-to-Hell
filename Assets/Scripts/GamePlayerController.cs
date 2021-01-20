@@ -9,7 +9,7 @@ public class GamePlayerController : MonoBehaviour
     [Space]
     public float hp;
     [Space]
-    int damage;
+    //int damage;
     [Space]
     public Text hpText;
     [Space]
@@ -31,7 +31,7 @@ public class GamePlayerController : MonoBehaviour
         StartCoroutine(Regenerate());
         hpText.text = ((int)hp).ToString();
         rb = GetComponent<Rigidbody2D>();
-        damage = GameObject.FindWithTag("AirPlane").GetComponent<NPC_PlaneController>().damage;
+        //damage = GameObject.FindWithTag("AirPlane").GetComponent<NPC_PlaneController>().damage;
         animat = GetComponent<Animator>();
     }
 
@@ -115,7 +115,7 @@ public class GamePlayerController : MonoBehaviour
 
     void TakeDamage()
     {
-        hp -= damage * Time.deltaTime;
+        hp -= 12 * Time.deltaTime;
 
         if (hp < 0)
         {
@@ -139,6 +139,8 @@ public class GamePlayerController : MonoBehaviour
             hp += 30 * Time.deltaTime;
             hpText.text = ((int)hp).ToString();
         }
+        if (hp > 60)
+            hp = 60;
         Repeat();
     }
 
