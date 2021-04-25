@@ -15,6 +15,9 @@ public class GameController : MonoBehaviour
     [Space]
     [Header("Физика")]
     public Rigidbody2D rb;
+    [Space]
+    [Header("Анимация")]
+    public Animator animat;
 
     [SerializeField] Joystick joystick;
     [SerializeField] Joystick joystick2;
@@ -27,6 +30,7 @@ public class GameController : MonoBehaviour
         StartCoroutine(Regenerate());
         rb = GetComponent<Rigidbody2D>();
         hpText.text = ((int)hp).ToString();
+        animat = GetComponent<Animator>();
     }
 
     void FixedUpdate()
@@ -45,19 +49,19 @@ public class GameController : MonoBehaviour
     {
         if (joystick.Horizontal > 0.1f)
         {
-            rb.AddForce(-rb.transform.right * speed);
+            rb.AddForce(rb.transform.up * speed);
         }
         else if (joystick.Horizontal < -0.1f)
         {
-            rb.AddForce(rb.transform.right * speed);
+            rb.AddForce(-rb.transform.up * speed);
         }
         else if (joystick.Vertical > 0.1f)
         {
-            rb.AddForce(-rb.transform.up * speed);
+            rb.AddForce(-rb.transform.right * speed);
         }
         else if (joystick.Vertical < -0.1f)
         {
-            rb.AddForce(rb.transform.up * speed);
+            rb.AddForce(rb.transform.right * speed);
         }
 
     }
@@ -66,19 +70,19 @@ public class GameController : MonoBehaviour
     {
         if (joystick2.Horizontal > 0.1f)
         {
-            rb.AddForce(-rb.transform.right * speed);
+            rb.AddForce(rb.transform.up * speed);
         }
         else if (joystick2.Horizontal < -0.1f)
         {
-            rb.AddForce(rb.transform.right * speed);
+            rb.AddForce(-rb.transform.up * speed);
         }
         else if (joystick2.Vertical > 0.1f)
         {
-            rb.AddForce(-rb.transform.up * speed);
+            rb.AddForce(-rb.transform.right * speed);
         }
         else if (joystick2.Vertical < -0.1f)
         {
-            rb.AddForce(rb.transform.up * speed);
+            rb.AddForce(rb.transform.right * speed);
         }
 
     }
@@ -151,6 +155,7 @@ public class GameController : MonoBehaviour
         {
             triger = true;
             TakeDamage();
+            animat.SetBool("EnemyDamage", true);
         }
     }
 
@@ -159,7 +164,8 @@ public class GameController : MonoBehaviour
         if (collision.gameObject.CompareTag("Tank"))
         {
             Destroy(collision.gameObject);
-            triger = false;            
+            triger = false;
+            animat.SetBool("EnemyDamage", false);
         }
     }
 }
