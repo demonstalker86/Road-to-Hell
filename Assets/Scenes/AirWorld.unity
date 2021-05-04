@@ -3075,7 +3075,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timerText: {fileID: 420167230}
   timeLeft: 40
-  sceneIndex: 18
+  sceneIndex: 12
 --- !u!114 &2112685675
 MonoBehaviour:
   m_ObjectHideFlags: 0

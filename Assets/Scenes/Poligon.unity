@@ -1690,7 +1690,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timerText: {fileID: 1820833237}
   timeLeft: 60
-  sceneIndex: 16
+  sceneIndex: 10
 --- !u!81 &1148959093
 AudioListener:
   m_ObjectHideFlags: 0

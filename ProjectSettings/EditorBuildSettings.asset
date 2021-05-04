@@ -21,12 +21,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 3.unity
     guid: b331703f018d7cf4c80796daf04e1569
   - enabled: 1
-    path: Assets/Scenes/Victory.unity
-    guid: 7cba15d81e16831409e4bb0e0f04bb0b
-  - enabled: 1
-    path: Assets/Scenes/Game Over.unity
-    guid: 5cae4c6bb61d6d24baa8c2848fa2f314
-  - enabled: 1
     path: Assets/Scenes/DoomsDay 1.unity
     guid: e15a5bd2b1b89b342bb511997b578bae
   - enabled: 1
@@ -36,23 +30,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Moonlight.unity
     guid: 853599bedc72e2d4999ba76353038293
   - enabled: 1
-    path: Assets/Scenes/Victory2.unity
-    guid: a94336fa1e541774988d523ace60718d
-  - enabled: 1
-    path: Assets/Scenes/Game Over2.unity
-    guid: 12b178234c99f714aa1f20e26d45d3b6
-  - enabled: 1
     path: Assets/Scenes/TankParade.unity
     guid: 9433de1aadf5ce24d965acafe27fb1eb
   - enabled: 1
     path: Assets/Scenes/Poligon.unity
     guid: de5c6d3f9e44b4e448195721fb6b990b
-  - enabled: 1
-    path: Assets/Scenes/Victory3.unity
-    guid: dce987b1c95a46a46a5d7733edd4a855
-  - enabled: 1
-    path: Assets/Scenes/GameOver3.unity
-    guid: a86ab95b6895dd24dabe0bd3bf1d4eeb
   - enabled: 1
     path: Assets/Scenes/WaterWorld.unity
     guid: 3566f79605035204dbf339cc2c253cd4
