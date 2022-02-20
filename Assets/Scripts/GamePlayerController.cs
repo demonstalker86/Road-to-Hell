@@ -5,39 +5,36 @@ using UnityEngine.UI;
 public class GamePlayerController : MonoBehaviour
 {
     [Header("Параметры")]
-    public float speed;
+    [SerializeField] private float _speed;
     [Space]
-    public float hp;
+    [SerializeField] private float _hp;    
     [Space]
-    //int damage;
+    [SerializeField] private Text _hpText;
     [Space]
-    public Text hpText;
-    [Space]
-    bool triger;
+    private bool _triger;
     [Header("Физика")]
-    public Rigidbody2D rb;
+    [SerializeField] private Rigidbody2D _rb;
     [Space]
     [Header("Анимация")]
-    public Animator animat;
+    [SerializeField] private Animator _animat;
 
-   
 
-    [SerializeField] Joystick  joystick;
-    [SerializeField] Joystick joystick2;
-    [SerializeField] GameObject gameObj;
-    [SerializeField] GameObject backobj;
+
+    [SerializeField] private Joystick  _joystick;
+    [SerializeField] private Joystick _joystick2;
+    [SerializeField] private GameObject _gameObj;
+    [SerializeField] private GameObject _backobj;
     void Start()
     {
         StartCoroutine(Regenerate());
-        hpText.text = ((int)hp).ToString();
-        rb = GetComponent<Rigidbody2D>();
-        //damage = GameObject.FindWithTag("AirPlane").GetComponent<NPC_PlaneController>().damage;
-        animat = GetComponent<Animator>();
+        _hpText.text = ((int)_hp).ToString();
+        _rb = GetComponent<Rigidbody2D>();        
+        _animat = GetComponent<Animator>();
     }
 
     void FixedUpdate()
     {
-        if (triger)
+        if (_triger)
         {
             UpdateText();
             TakeDamage();           
@@ -49,42 +46,42 @@ public class GamePlayerController : MonoBehaviour
 
     void JoyController()
     {
-        if (joystick.Horizontal > 0.1f)
+        if (_joystick.Horizontal > 0.1f)
         {
-            rb.AddForce(-rb.transform.up * speed);
+            _rb.AddForce(-_rb.transform.up * _speed);
         }
-        else if (joystick.Horizontal < -0.1f)
+        else if (_joystick.Horizontal < -0.1f)
         {
-            rb.AddForce(rb.transform.up * speed);
+            _rb.AddForce(_rb.transform.up * _speed);
         }
-        else if (joystick.Vertical > 0.1f)
+        else if (_joystick.Vertical > 0.1f)
         {
-            rb.AddForce(rb.transform.right * speed);
+            _rb.AddForce(_rb.transform.right * _speed);
         }
-        else if (joystick.Vertical < -0.1f)
+        else if (_joystick.Vertical < -0.1f)
         {
-            rb.AddForce(-rb.transform.right * speed);
+            _rb.AddForce(-_rb.transform.right * _speed);
         }
 
     }
 
     void JoyController2()
     {
-        if (joystick2.Horizontal > 0.1f)
+        if (_joystick2.Horizontal > 0.1f)
         {
-            rb.AddForce(-rb.transform.up * speed);
+            _rb.AddForce(-_rb.transform.up * _speed);
         }
-        else if (joystick2.Horizontal < -0.1f)
+        else if (_joystick2.Horizontal < -0.1f)
         {
-            rb.AddForce(rb.transform.up * speed);
+            _rb.AddForce(_rb.transform.up * _speed);
         }
-        else if (joystick2.Vertical > 0.1f)
+        else if (_joystick2.Vertical > 0.1f)
         {
-            rb.AddForce(rb.transform.right * speed);
+            _rb.AddForce(_rb.transform.right * _speed);
         }
-        else if (joystick2.Vertical < -0.1f)
+        else if (_joystick2.Vertical < -0.1f)
         {
-            rb.AddForce(-rb.transform.right * speed);
+            _rb.AddForce(-_rb.transform.right * _speed);
         }
 
     }
@@ -92,55 +89,50 @@ public class GamePlayerController : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.W))
         {
-
-            rb.AddForce(rb.transform.right * speed);
+            _rb.AddForce(_rb.transform.right * _speed);
         }
         if (Input.GetKey(KeyCode.S))
         {
-
-            rb.AddForce(-rb.transform.right * speed);
+            _rb.AddForce(-_rb.transform.right * _speed);
         }
         if (Input.GetKey(KeyCode.A))
         {
-
-            rb.AddForce(rb.transform.up * speed);
+            _rb.AddForce(_rb.transform.up * _speed);
         }
         if (Input.GetKey(KeyCode.D))
         {
-
-            rb.AddForce(-rb.transform.up * speed);
+            _rb.AddForce(-_rb.transform.up * _speed);
         }
-
     }
 
     void TakeDamage()
     {
-        hp -= 12 * Time.deltaTime;
+        _hp -= 12 * Time.deltaTime;
 
-        if (hp < 0)
+        if (_hp < 0)
         {
-            hp = 0;
+            _hp = 0;
             Destroy(gameObject);
-            gameObj.SetActive(true);
+            _gameObj.SetActive(true);
             Time.timeScale = 0f;
-            backobj.SetActive(false);
+            _backobj.SetActive(false);
         }
     }
     void UpdateText()
     {
-        hpText.text = ((int)hp).ToString();
+        _hpText.text = ((int)_hp).ToString();
     }
 
     IEnumerator Regenerate()
     {
-        if (hp > 0)
+        if (_hp > 0)
         {
             yield return new WaitForSeconds(1);
-            hp += 30 * Time.deltaTime;
-            hpText.text = ((int)hp).ToString();
+            _hp += 30 * Time.deltaTime;
+            _hpText.text = ((int)_hp).ToString();
         }
-        if (hp > 60)
-            hp = 60;
+        if (_hp > 60)
+            _hp = 60;
         Repeat();
     }
 
@@ -154,9 +146,9 @@ public class GamePlayerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("AirPlane"))
         {
-            triger = true;
+            _triger = true;
             TakeDamage();
-            animat.SetBool("EnemyDamage", true);
+            _animat.SetBool("EnemyDamage", true);
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -164,8 +156,8 @@ public class GamePlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("AirPlane"))
         {
             Destroy(collision.gameObject);
-            triger = false;
-            animat.SetBool("EnemyDamage", false);
+            _triger = false;
+            _animat.SetBool("EnemyDamage", false);
         }
     }
 }

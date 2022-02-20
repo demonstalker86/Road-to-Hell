@@ -46,6 +46,7 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -145,10 +146,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45bc9d15de3bfd349a7780c6e83b6741, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  damage: 6
-  timeToDeath: 8
-  srb: {fileID: 1659843227855409426}
+  _speed: 5
+  _timeToDeath: 8
+  _srb: {fileID: 1659843227855409426}
 --- !u!82 &6909808265249305587
 AudioSource:
   m_ObjectHideFlags: 0

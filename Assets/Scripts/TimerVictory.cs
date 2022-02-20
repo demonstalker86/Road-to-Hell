@@ -5,30 +5,30 @@ using UnityEngine.UI;
 public class TimerVictory : MonoBehaviour
 {
     //[Header("Индикатор")]
-    public Text timerText;
+    [SerializeField] private Text _timerText;
     [SerializeField] GameObject gmobj;
     [SerializeField] GameObject bcobj;
     //public Slider mySlider;
 
 
     [Header("Осталось времени")]
-    public int timeLeft;
-    private float gameTime;
+    [SerializeField] private int _timeLeft;
+    private float _gameTime;
    
 
     void FixedUpdate()
     {
-        timerText.text = "Left" + " " + timeLeft + " " + "sec.";
+        _timerText.text = "Left" + " " + _timeLeft + " " + "sec.";
 
 
-        gameTime += 1 * Time.fixedDeltaTime;
-        if (gameTime >= 1)
+        _gameTime += 1 * Time.fixedDeltaTime;
+        if (_gameTime >= 1)
         {
-            timeLeft -= 1;
-            gameTime = 0;
-            if (timeLeft <= 0)
+            _timeLeft -= 1;
+            _gameTime = 0;
+            if (_timeLeft <= 0)
             {
-                timerText.gameObject.SetActive(false);
+                _timerText.gameObject.SetActive(false);
                 gmobj.SetActive(true);
                 Time.timeScale = 0f;
                 bcobj.SetActive(false);

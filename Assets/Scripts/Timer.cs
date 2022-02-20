@@ -5,30 +5,30 @@ using UnityEngine.SceneManagement;
 public class Timer : MonoBehaviour
 {
     [Header("Индикатор")]
-    public Text timerText;   
+    [SerializeField] private Text _timerText;   
     //public Slider mySlider;
 
 
     [Header("Осталось времени")]
-    public int timeLeft;
-    private float gameTime;
+    [SerializeField] private int _timeLeft;
+    private float _gameTime;
     [Header("Индекс сцены")]
-    public int sceneIndex;
+    [SerializeField] private int _sceneIndex;
 
 
     void FixedUpdate()
     {
-        timerText.text = "Left" +" "+ timeLeft +" "+ "sec.";
+        _timerText.text = "Left" +" "+ _timeLeft +" "+ "sec.";
        
         
-        gameTime += 1 * Time.fixedDeltaTime;
-        if (gameTime >= 1)
+        _gameTime += 1 * Time.fixedDeltaTime;
+        if (_gameTime >= 1)
         {
-            timeLeft -= 1;
-            gameTime = 0;
-            if (timeLeft <= 0)
+            _timeLeft -= 1;
+            _gameTime = 0;
+            if (_timeLeft <= 0)
             {           
-                SceneManager.LoadScene(sceneIndex);
+                SceneManager.LoadScene(_sceneIndex);
             }
         }
     }

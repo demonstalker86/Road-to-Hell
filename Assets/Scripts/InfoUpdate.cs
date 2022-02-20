@@ -3,12 +3,12 @@ using UnityEngine.UI;
 
 public class InfoUpdate : MonoBehaviour
 {
-    public GameObject panel;
+    [SerializeField] private GameObject _panel;
 
     // Start is called before the first frame update
-    private void Awake()
+    public void Awake()
     {
-        panel.SetActive(true);
+        _panel.SetActive(true);
     }
 
     

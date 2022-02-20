@@ -4,22 +4,20 @@ using UnityEngine;
 public class NPC_shipController : MonoBehaviour
 {
     [Header("Параметры")]
-    public float speed;
+    [SerializeField] private float _speed;    
     [Space]
-    public int damage;
-    [Space]
-    public int timeToDeath;
+    [SerializeField] private int _timeToDeath;
     [Header("Физика")]
-    public Rigidbody2D srb;
+    [SerializeField] private Rigidbody2D _srb;
     void Start()
     {
-        srb = GetComponent<Rigidbody2D>();       
-        StartCoroutine(selfDestroying());
+        _srb = GetComponent<Rigidbody2D>();       
+        StartCoroutine(SelfDestroying());
     }
 
-    private IEnumerator selfDestroying()
+    private IEnumerator SelfDestroying()
     {
-        yield return new WaitForSeconds(timeToDeath);
+        yield return new WaitForSeconds(_timeToDeath);
         Destroy(gameObject);
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -28,12 +26,11 @@ public class NPC_shipController : MonoBehaviour
         if (collision.gameObject.CompareTag("Ship"))
         {
             Destroy(gameObject);
-
         }
     }
     
     void FixedUpdate()
     {
-        srb.velocity=srb.transform.up * speed;
+        _srb.velocity=_srb.transform.up * _speed;
     }
 }

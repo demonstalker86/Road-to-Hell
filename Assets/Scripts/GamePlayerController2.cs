@@ -5,35 +5,35 @@ using UnityEngine.UI;
 public class GamePlayerController2 : MonoBehaviour
 {
     [Header("Параметры")]
-    public float speed;
+    [SerializeField] private float _speed;
     [Space]
-    public float hp;    
+    [SerializeField] private float _hp;    
     [Space]
     //int damage2;
     //int damage1;
     [Space]
-    public Text hpText;
+    [SerializeField] private Text _hpText;
     [Space]
-    bool triger;
+    private bool _triger;
     [Header("Физика")]
-    public Rigidbody2D rb;
+    [SerializeField] private Rigidbody2D _rb;
     [Space]
     [Header("Анимация")]
-    public Animator animat;
+    [SerializeField] private Animator animat;
 
 
 
-    [SerializeField] Joystick joystick;
-    [SerializeField] Joystick joystick2;
-    [SerializeField] GameObject gameObj;
-    [SerializeField] GameObject backobj;
+    [SerializeField] private Joystick _joystick;
+    [SerializeField] private Joystick _joystick2;
+    [SerializeField] private GameObject _gameObj;
+    [SerializeField] private GameObject _backobj;
 
      void Start()
     {
         
        StartCoroutine(Regenerate());
-       hpText.text = ((int)hp).ToString();
-       rb = GetComponent<Rigidbody2D>();
+       _hpText.text = ((int)_hp).ToString();
+       _rb = GetComponent<Rigidbody2D>();
         //damage2 = GameObject.FindWithTag("asteroid").GetComponent<AsteroidController>().damage;
         //damage1 = GameObject.FindWithTag("SpaceShip").GetComponent<NPC_SpaceController>().damage;
        animat = GetComponent<Animator>();
@@ -42,7 +42,7 @@ public class GamePlayerController2 : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (triger)
+        if (_triger)
         {
             UpdateText();
             TakeDamage();
@@ -55,42 +55,42 @@ public class GamePlayerController2 : MonoBehaviour
 
     public void JoyController()
     {
-        if (joystick.Horizontal > 0.1f)
+        if (_joystick.Horizontal > 0.1f)
         {
-            rb.AddForce(rb.transform.right * speed);
+            _rb.AddForce(_rb.transform.right * _speed);
         }
-        else if (joystick.Horizontal < -0.1f)
+        else if (_joystick.Horizontal < -0.1f)
         {
-            rb.AddForce(-rb.transform.right * speed);
+            _rb.AddForce(-_rb.transform.right * _speed);
         }
-        else if (joystick.Vertical > 0.1f)
+        else if (_joystick.Vertical > 0.1f)
         {
-            rb.AddForce(rb.transform.up * speed);
+            _rb.AddForce(_rb.transform.up * _speed);
         }
-        else if (joystick.Vertical < -0.1f)
+        else if (_joystick.Vertical < -0.1f)
         {
-            rb.AddForce(-rb.transform.up * speed);
+            _rb.AddForce(-_rb.transform.up * _speed);
         }
 
     }
 
     public void JoyController2()
     {
-        if (joystick2.Horizontal > 0.1f)
+        if (_joystick2.Horizontal > 0.1f)
         {
-            rb.AddForce(rb.transform.right * speed);
+            _rb.AddForce(_rb.transform.right * _speed);
         }
-        else if (joystick2.Horizontal < -0.1f)
+        else if (_joystick2.Horizontal < -0.1f)
         {
-            rb.AddForce(-rb.transform.right * speed);
+            _rb.AddForce(-_rb.transform.right * _speed);
         }
-        else if (joystick2.Vertical > 0.1f)
+        else if (_joystick2.Vertical > 0.1f)
         {
-            rb.AddForce(rb.transform.up * speed);
+            _rb.AddForce(_rb.transform.up * _speed);
         }
-        else if (joystick2.Vertical < -0.1f)
+        else if (_joystick2.Vertical < -0.1f)
         {
-            rb.AddForce(-rb.transform.up * speed);
+            _rb.AddForce(-_rb.transform.up * _speed);
         }
 
     }
@@ -100,66 +100,66 @@ public class GamePlayerController2 : MonoBehaviour
         if (Input.GetKey(KeyCode.W))
         {
 
-            rb.AddForce(rb.transform.up * speed);
+            _rb.AddForce(_rb.transform.up * _speed);
         }
         if (Input.GetKey(KeyCode.S))
         {
 
-            rb.AddForce(-rb.transform.up * speed);
+            _rb.AddForce(-_rb.transform.up * _speed);
         }
         if (Input.GetKey(KeyCode.A))
         {
 
-            rb.AddForce(-rb.transform.right * speed);
+            _rb.AddForce(-_rb.transform.right * _speed);
         }
         if (Input.GetKey(KeyCode.D))
         {
 
-            rb.AddForce(rb.transform.right * speed);
+            _rb.AddForce(_rb.transform.right * _speed);
         }
 
     }
 
     void TakeDamage()
     {
-        hp -= 12 * Time.deltaTime;
+        _hp -= 12 * Time.deltaTime;
 
-        if (hp < 0)
+        if (_hp < 0)
         {
-            hp = 0;
+            _hp = 0;
             Destroy(gameObject);
-            gameObj.SetActive(true);
+            _gameObj.SetActive(true);
             Time.timeScale = 0f;
-            backobj.SetActive(false);
+            _backobj.SetActive(false);
         }
     }
     void TakeDamage2()
     {
-        hp -= 10 * Time.deltaTime;
+        _hp -= 10 * Time.deltaTime;
 
-        if (hp < 0)
+        if (_hp < 0)
         {
-            hp = 0;
+            _hp = 0;
             Destroy(gameObject);
-            gameObj.SetActive(true);
+            _gameObj.SetActive(true);
             Time.timeScale = 0f;
-            backobj.SetActive(false);
+            _backobj.SetActive(false);
         }
     }
     void UpdateText()
     {
-        hpText.text = ((int)hp).ToString();
+        _hpText.text = ((int)_hp).ToString();
     }
       IEnumerator Regenerate()
     {
-        if (hp > 0 )
+        if (_hp > 0 )
         {          
            yield return new WaitForSeconds(1);
-           hp += 30 * Time.deltaTime;
-           hpText.text = ((int)hp).ToString();           
+           _hp += 30 * Time.deltaTime;
+           _hpText.text = ((int)_hp).ToString();           
         }
-        if (hp > 50)
-            hp = 50;
+        if (_hp > 50)
+            _hp = 50;
         Repeat();
     }
 
@@ -174,7 +174,7 @@ public class GamePlayerController2 : MonoBehaviour
         if (collision.gameObject.CompareTag("SpaceShip"))
         {
             
-            triger = true;
+            _triger = true;
             TakeDamage2();
             animat.SetBool("EnemyDamage",true);            
         }
@@ -182,7 +182,7 @@ public class GamePlayerController2 : MonoBehaviour
         if (collision.gameObject.CompareTag("asteroid"))
         {
             
-            triger = true;
+            _triger = true;
             TakeDamage();
             animat.SetBool("EnemyDamage",true);
             
@@ -194,13 +194,13 @@ public class GamePlayerController2 : MonoBehaviour
             if (collision.gameObject.CompareTag("SpaceShip"))
         {
             Destroy(collision.gameObject);
-            triger = false;
+            _triger = false;
             animat.SetBool("EnemyDamage", false);
         }
             if (collision.gameObject.CompareTag("asteroid"))
         {
             Destroy(collision.gameObject);
-            triger = false;
+            _triger = false;
             animat.SetBool("EnemyDamage", false);
         }
                 

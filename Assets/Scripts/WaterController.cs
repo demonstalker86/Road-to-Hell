@@ -1,26 +1,25 @@
-﻿using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class WaterController : MonoBehaviour
 {
     [Header ("Параметры")]
-    public bool StartRoad;
+    [SerializeField] private bool _startRoad;
     [Space]
-    public float speed;
+    [SerializeField] private float _speed;
     [Header ("Физика")]
-    public Rigidbody2D wrb;
+    [SerializeField] private Rigidbody2D _wrb;
 
 
 
     void Start()
     {
-        wrb = GetComponent<Rigidbody2D>();       
+        _wrb = GetComponent<Rigidbody2D>();       
         Destroy(gameObject, 8);
     }
       
 
     void FixedUpdate()
     {
-        wrb.velocity = -wrb.transform.up * speed;        
+        _wrb.velocity = -_wrb.transform.up * _speed;        
     }
 }

@@ -3,19 +3,18 @@
 public class WaterWorldController : MonoBehaviour
 {
     [Header("Префабы")]
-    public GameObject[] prefabWater;
+    [SerializeField] private GameObject[] _prefabWater;
     [Header("Точки и место появления воды")]
-    public GameObject point;
+    [SerializeField] private GameObject _point;
     [Space]
-    public GameObject parentWater;
+    [SerializeField] private GameObject _parentWater;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Water"))
         {
-            GameObject Water = Instantiate(prefabWater[Random.Range(0,prefabWater.Length)], point.transform.position, Quaternion.identity, parentWater.transform);
-            Water.name = "water";               
-         
+            GameObject Water = Instantiate(_prefabWater[Random.Range(0,_prefabWater.Length)], _point.transform.position, Quaternion.identity, _parentWater.transform);
+            Water.name = "water";           
         }
     }
 }

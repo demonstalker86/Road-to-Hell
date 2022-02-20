@@ -3,18 +3,17 @@
 public class CloudController : MonoBehaviour
 {
     [Header("Параметры")]
-    public float speed;
+    [SerializeField] private float _speed;
     [Header("Физика")]
-    public Rigidbody2D crb;
+    [SerializeField] private Rigidbody2D _crb;
     void Awake()
     {
-        crb = GetComponent<Rigidbody2D>();
+        _crb = GetComponent<Rigidbody2D>();
         Destroy(gameObject, 8);
     }
 
     void FixedUpdate()
     {
-        crb.velocity = -crb.transform.right * speed;
-
+        _crb.velocity = -_crb.transform.right * _speed;
     }
 }

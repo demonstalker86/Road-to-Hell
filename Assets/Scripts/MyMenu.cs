@@ -63,7 +63,7 @@ public class MyMenu : MonoBehaviour
 
     public void InfoPanel()
     {
-        gameObject.GetComponent<InfoUpdate>().panel.SetActive(false);
+        gameObject.GetComponent<InfoUpdate>().Awake();
     }
     public void QuitGame()
     {
