@@ -3,19 +3,19 @@
 public class SpaceController : MonoBehaviour
 {
     [Header("Параметры")]
-    public float speed;
+    [SerializeField] private float _speed;
     
     [Header("Физика")]
-    public Rigidbody2D srb;
-    void Awake()
+    [SerializeField] private Rigidbody2D _srb;
+    private void Awake()
     {
-        srb = GetComponent<Rigidbody2D>();
+        _srb = GetComponent<Rigidbody2D>();
         Destroy(gameObject, 8);
         
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
-        srb.velocity = -srb.transform.up * speed;
+        _srb.velocity = -_srb.transform.up * _speed;
     }
 }

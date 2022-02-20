@@ -45,6 +45,7 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -144,6 +145,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51805655618535e47b257ba57f95c4cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartRoad: 1
-  speed: 3
-  wrb: {fileID: 1482315583246195734}
+  _startRoad: 0
+  _speed: 3
+  _wrb: {fileID: 1482315583246195734}

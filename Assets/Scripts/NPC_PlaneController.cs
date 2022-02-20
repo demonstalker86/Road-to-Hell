@@ -4,22 +4,20 @@ using UnityEngine;
 public class NPC_PlaneController : MonoBehaviour
 {
     [Header("Параметры")]
-    public float speed;
+    [SerializeField] private float _speed;
     [Space]
-    public int timeToDeath;
-    [Space]
-    //public int damage;
+    [SerializeField] private int _timeToDeath;    
     [Header("Физика")]
-    public Rigidbody2D prb;
+    [SerializeField] private Rigidbody2D _prb;
     void Start()
     {
-        prb = GetComponent<Rigidbody2D>();
-        StartCoroutine(selfDestroying());
+        _prb = GetComponent<Rigidbody2D>();
+        StartCoroutine(SelfDestroying());
     }
 
-    private IEnumerator selfDestroying()
+    private IEnumerator SelfDestroying()
     {
-        yield return new WaitForSeconds(timeToDeath); 
+        yield return new WaitForSeconds(_timeToDeath); 
         Destroy(gameObject);
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -27,12 +25,11 @@ public class NPC_PlaneController : MonoBehaviour
         if (collision.gameObject.CompareTag("AirPlane"))
         {
             Destroy(gameObject);
-
         }
     }
     
     void FixedUpdate()
     {
-        prb.velocity = prb.transform.up * speed;
+        _prb.velocity = _prb.transform.up * _speed;
     }
 }

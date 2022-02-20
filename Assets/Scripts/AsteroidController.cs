@@ -3,21 +3,18 @@
 public class AsteroidController : MonoBehaviour
 {
     [Header("Параметры")]
-    public float speed;
-    [Space]
-    //public int damage;
+    [SerializeField] private float _speed;
+    
     [Header("Физика")]
-    public Rigidbody2D arb;
+    [SerializeField] private Rigidbody2D _arb;
     void Awake()
-    {
-        
-        arb = GetComponent<Rigidbody2D>();
+    {        
+        _arb = GetComponent<Rigidbody2D>();
         Destroy(gameObject, 8);
     }
 
     void FixedUpdate()
     {
-        arb.velocity = -arb.transform.right * speed;
-
+        _arb.velocity = -_arb.transform.right * _speed;
     }
 }
