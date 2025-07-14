@@ -21,6 +21,6 @@ public class NPC_PlaneController2 : MonoBehaviour
 
     void FixedUpdate()
     {
-        prb.velocity = -prb.transform.right * speed;
+        prb.linearVelocity = -prb.transform.right * speed;
     }
 }

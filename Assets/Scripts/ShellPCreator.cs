@@ -17,7 +17,7 @@ public class ShellPCreator : MonoBehaviour, IPointerDownHandler
     void OnShoot()
     {
         GameObject newShellP = Instantiate(ShellPprefab, transform.position, Quaternion.Euler(0, 0, -90));
-        newShellP.GetComponent<Rigidbody2D>().velocity = transform.up * ShellPvelosity;
+        newShellP.GetComponent<Rigidbody2D>().linearVelocity = transform.up * ShellPvelosity;
        
     }
 

@@ -36,6 +36,6 @@ public class NPC_SpaceController : MonoBehaviour
 
     void FixedUpdate()
     {
-        _srb.velocity = _srb.transform.right * _speed;
+        _srb.linearVelocity = _srb.transform.right * _speed;
     }
 }

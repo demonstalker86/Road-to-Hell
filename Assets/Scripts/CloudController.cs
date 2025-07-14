@@ -14,6 +14,6 @@ public class CloudController : MonoBehaviour
 
     void FixedUpdate()
     {
-        _crb.velocity = -_crb.transform.right * _speed;
+        _crb.linearVelocity = -_crb.transform.right * _speed;
     }
 }

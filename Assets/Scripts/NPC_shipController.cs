@@ -31,6 +31,6 @@ public class NPC_shipController : MonoBehaviour
     
     void FixedUpdate()
     {
-        _srb.velocity=_srb.transform.up * _speed;
+        _srb.linearVelocity=_srb.transform.up * _speed;
     }
 }

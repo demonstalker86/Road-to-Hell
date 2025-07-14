@@ -15,6 +15,6 @@ public class AsteroidController : MonoBehaviour
 
     void FixedUpdate()
     {
-        _arb.velocity = -_arb.transform.right * _speed;
+        _arb.linearVelocity = -_arb.transform.right * _speed;
     }
 }

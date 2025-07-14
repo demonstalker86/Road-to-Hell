@@ -16,7 +16,7 @@ public class SkyController : MonoBehaviour
 
     void FixedUpdate()
     {
-        _srb.velocity = -_srb.transform.up * _speed;
+        _srb.linearVelocity = -_srb.transform.up * _speed;
 
     }
 

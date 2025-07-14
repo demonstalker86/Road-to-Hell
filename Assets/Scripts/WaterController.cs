@@ -20,6 +20,6 @@ public class WaterController : MonoBehaviour
 
     void FixedUpdate()
     {
-        _wrb.velocity = -_wrb.transform.up * _speed;        
+        _wrb.linearVelocity = -_wrb.transform.up * _speed;        
     }
 }
