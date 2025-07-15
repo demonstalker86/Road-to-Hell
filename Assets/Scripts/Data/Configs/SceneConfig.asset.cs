@@ -73,6 +73,7 @@ public class SceneConfig : ScriptableObject
 
 public enum SceneType
 {
+    None = 0,
     MyMenu,
     GameMode,
     Level1,

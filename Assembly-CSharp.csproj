@@ -109,11 +109,13 @@
     <Compile Include="Assets\Scripts\MyMenu.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
     <Compile Include="Assets\Scripts\PlayerController2.cs" />
+    <Compile Include="Assets\Scripts\UI\InfoPanelController.cs" />
     <Compile Include="Assets\Scripts\Core\Scenes\ISceneLoader.cs" />
     <Compile Include="Assets\Scripts\SpawnEnemy.cs" />
     <Compile Include="Assets\Scripts\AsteroidController.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
     <Compile Include="Assets\Packs\2D_urban_cars\scripts\SplashBehaviour.cs" />
+    <Compile Include="Assets\Scripts\UI\MenuController.cs" />
     <Compile Include="Assets\Scripts\NPCcontroller.cs" />
     <Compile Include="Assets\Scripts\RoadController2.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
@@ -125,6 +127,7 @@
     <Compile Include="Assets\Scripts\RoadController4.cs" />
     <Compile Include="Assets\Scripts\Data\Configs\SceneConfig.asset.cs" />
     <Compile Include="Assets\Scripts\ButtonClick3.cs" />
+    <Compile Include="Assets\Scripts\UI\Buttons\SceneButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
