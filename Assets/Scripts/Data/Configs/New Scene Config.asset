@@ -24,7 +24,7 @@ MonoBehaviour:
   - Type: 5
     SceneName: Level3
   - Type: 6
-    SceneName: DoomDay
+    SceneName: DoomsDay
   - Type: 7
     SceneName: Motorcycle
   - Type: 8

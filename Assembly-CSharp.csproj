@@ -104,7 +104,6 @@
     <Compile Include="Assets\Scripts\NPC_TankController.cs" />
     <Compile Include="Assets\Scripts\MoveObjects.cs" />
     <Compile Include="Assets\Scripts\NPC_TankController2.cs" />
-    <Compile Include="Assets\Scripts\Core\Installers\GameInstaller.cs" />
     <Compile Include="Assets\Scripts\ButtonClick.cs" />
     <Compile Include="Assets\Scripts\MyMenu.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
@@ -118,6 +117,7 @@
     <Compile Include="Assets\Scripts\UI\MenuController.cs" />
     <Compile Include="Assets\Scripts\NPCcontroller.cs" />
     <Compile Include="Assets\Scripts\RoadController2.cs" />
+    <Compile Include="Assets\Scripts\Core\Installers\SceneInstaller.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\SpawnEnemy2.cs" />
     <Compile Include="Assets\Scripts\NPC_PlaneController.cs" />

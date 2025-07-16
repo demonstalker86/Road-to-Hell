@@ -32,11 +32,18 @@ public class SceneLoader : ISceneLoader
 
     public void LoadScene(SceneType sceneType)
     {
-        string sceneName = _sceneConfig.GetSceneName(sceneType);
-
-        if (sceneType == 0) 
+        if (sceneType == SceneType.None)
         {
             Debug.LogError("Попытка загрузить сцену с типом None!");
+
+            return;
+        }
+
+        string sceneName = _sceneConfig.GetSceneName(sceneType);
+
+        if (string.IsNullOrEmpty(sceneName))
+        {
+            Debug.LogError($"Не найдено имя сцены для типа {sceneType}");
 
             return;
         }
