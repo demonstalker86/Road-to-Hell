@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\Scripts\Core\Scenes\SceneLoader.cs" />
+    <Compile Include="Assets\Scripts\Core\ProjectContextCreator.cs" />
     <Compile Include="Assets\Scripts\ShellPCreator.cs" />
     <Compile Include="Assets\Scripts\AsteroidSpawn.cs" />
     <Compile Include="Assets\Packs\2D_urban_cars\scripts\SceneLoaderBehaviour.cs" />

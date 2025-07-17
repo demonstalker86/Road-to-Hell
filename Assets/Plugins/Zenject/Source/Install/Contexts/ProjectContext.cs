@@ -184,14 +184,20 @@ namespace Zenject
         public void Awake()
         {
             if (Application.isPlaying)
-                // DontDestroyOnLoad can only be called when in play mode and otherwise produces errors
-                // ProjectContext is created during design time (in an empty scene) when running validation
-                // and also when running unit tests
-                // In these cases we don't need DontDestroyOnLoad so just skip it
+            // DontDestroyOnLoad can only be called when in play mode and otherwise produces errors
+            // ProjectContext is created during design time (in an empty scene) when running validation
+            // and also when running unit tests
+            // In these cases we don't need DontDestroyOnLoad so just skip it
             {
+                if (transform.parent != null)
+        {
+            Debug.LogWarning("ProjectContext должен быть корневым объектом! Исправьте иерархию.");
+            transform.SetParent(null);
+        }
+
                 DontDestroyOnLoad(gameObject);
             }
-        }
+        }      
 
         void Initialize()
         {
