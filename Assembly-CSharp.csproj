@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\GamePlayerController.cs" />
     <Compile Include="Assets\Scripts\MoveAndSpawnRoad.cs" />
     <Compile Include="Assets\Scripts\Core\Time\TimeController.cs" />
+    <Compile Include="Assets\Scripts\Core\Installers\ProjectInstaller.cs" />
     <Compile Include="Assets\Scripts\SpaceWorldController.cs" />
     <Compile Include="Assets\Scripts\NPC_SpaceController.cs" />
     <Compile Include="Assets\Scripts\ImageColor.cs" />
@@ -107,6 +108,7 @@
     <Compile Include="Assets\Scripts\ButtonClick.cs" />
     <Compile Include="Assets\Scripts\MyMenu.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
+    <Compile Include="Assets\Scripts\Core\Installers\GameplaySceneInstaller.cs" />
     <Compile Include="Assets\Scripts\PlayerController2.cs" />
     <Compile Include="Assets\Scripts\UI\InfoPanelController.cs" />
     <Compile Include="Assets\Scripts\Core\Scenes\ISceneLoader.cs" />
@@ -117,7 +119,6 @@
     <Compile Include="Assets\Scripts\UI\MenuController.cs" />
     <Compile Include="Assets\Scripts\NPCcontroller.cs" />
     <Compile Include="Assets\Scripts\RoadController2.cs" />
-    <Compile Include="Assets\Scripts\Core\Installers\SceneInstaller.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\SpawnEnemy2.cs" />
     <Compile Include="Assets\Scripts\NPC_PlaneController.cs" />

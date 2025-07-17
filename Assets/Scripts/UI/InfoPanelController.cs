@@ -3,49 +3,34 @@ using Zenject;
 
 public class InfoPanelController : MonoBehaviour
 {
-    [SerializeField] private GameObject _infoPanel;
+    [SerializeField, Tooltip("Перетащите объект InfoPanel сюда")]
+    private GameObject _infoPanel;
 
-    private TimeController _timeController;
-
-    [Inject]
-    private void Construct(TimeController timeController)
-    {
-        _timeController = timeController;
-
-        Debug.Log("TimeController введённый");
-    }
+    [Inject] private TimeController _timeController;    
 
     private void Start()
-    {        
+    {           
         if (_infoPanel == null)
         {
-            Debug.LogError("Info Panel не назначена в инспекторе!", this);
+            Debug.LogError("InfoPanel не назначена!", this);
 
+            enabled = false;
             return;
-        }
-        
+        }       
+
         _infoPanel.SetActive(true);
-    }
+    }    
 
     public void ToggleInfoPanel()
-    {        
-        if (_infoPanel == null)
+    {
+        if (isActiveAndEnabled == false || _infoPanel == false)
         {
-            Debug.LogError("Info Panel не назначена в инспекторе!", this);
-
             return;
         }
 
         bool isActive = _infoPanel.activeSelf == false;
 
-        _infoPanel.SetActive(isActive);
-        
-        if (_timeController == null)
-        {
-            Debug.LogError("TimeController не инжектирован!", this);
-
-            return;
-        }
+        _infoPanel.SetActive(isActive);       
 
         if (isActive)
         {
@@ -54,6 +39,6 @@ public class InfoPanelController : MonoBehaviour
         else
         {
             _timeController.Resume();
-        }            
-    }
+        }
+    }    
 }

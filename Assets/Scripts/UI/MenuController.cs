@@ -13,6 +13,13 @@ public class MenuController : MonoBehaviour
         _timeController = timeController ?? throw new System.ArgumentNullException(nameof(timeController));
     }
 
+    public void ShowGameOverMenu()
+    {
+        _timeController.Pause();
+        
+        gameObject.SetActive(true);
+    }
+
     public void LoadScene(string sceneName)
     {
         _timeController.Resume(); 
