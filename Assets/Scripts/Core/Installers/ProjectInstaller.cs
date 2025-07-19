@@ -7,7 +7,7 @@ public class ProjectInstaller : MonoInstaller
     [SerializeField] private SceneConfig _sceneConfig;    
 
     public override void InstallBindings()
-    {
+    {     
         Debug.Log("Installing bindings...");
 
         Container.Bind<TimeController>().AsSingle().NonLazy();
@@ -16,17 +16,20 @@ public class ProjectInstaller : MonoInstaller
 
         try
         {
-            Container.Bind<ISceneLoader>().To<SceneLoader>().FromNew().AsSingle();
+            Container.Bind<ISceneLoader>().To<SceneLoader>().AsSingle();
 
             Debug.Log("SceneLoader привязка прошла успешно");
         }
         catch (Exception e)
         {
             Debug.LogError($"Ошибка привязки SceneLoader: {e}");
-        }       
+        }
 
-        Container.Bind<MenuController>().FromComponentInHierarchy().AsSingle();        
-        
+        Container.Bind<MenuController>()
+        .FromComponentInNewPrefabResource("Prefabs/UI/MenuController") // Укажите путь к префабу
+        .AsSingle()
+        .NonLazy();
+
         Container.Bind<SceneConfig>().FromInstance(_sceneConfig).AsSingle();
        
         if (_sceneConfig == null)

@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 using Zenject;
 using TMPro;
 
@@ -14,6 +13,7 @@ public class Timer : MonoBehaviour
 
     private float _currentTime;
     private ISceneLoader _sceneLoader;
+    private bool _isInitialized = false;
 
 
     [Inject]
@@ -21,13 +21,22 @@ public class Timer : MonoBehaviour
     {
         _sceneLoader = sceneLoader;
         _currentTime = _initialTime;
+        _isInitialized = true;
+
+        UpdateTimerText();
     }
 
 
     void Update()
     {
+        if (!_isInitialized) 
+        {
+            return;
+        }
+
         _currentTime -= Time.deltaTime;
-        _timerText.text = $"Left: {Mathf.CeilToInt(_currentTime)} sec.";
+
+        UpdateTimerText();
 
         if (_currentTime <= 0)
         {
@@ -35,8 +44,23 @@ public class Timer : MonoBehaviour
         }
     }
 
+    private void UpdateTimerText()
+    {
+        if (_timerText != null)
+        {
+            _timerText.text = $"Осталось {Mathf.CeilToInt(_currentTime)} сек.";
+        }
+    }
+
     private void LoadNextScene()
     {
+        if (!_isInitialized)
+        {
+            Debug.LogWarning("Попытка загрузки сцены до инициализации таймера");
+
+            return;
+        }
+
         if (_nextSceneType == SceneType.None)
         {
             Debug.LogError("Тип следующей сцены не назначен в таймере!", this);
@@ -44,16 +68,35 @@ public class Timer : MonoBehaviour
             return;
         }
 
-        Debug.Log($"Загрузка сцены: {_nextSceneType}");
+        if (_sceneLoader == null)
+        {
+            Debug.LogError("SceneLoader не был инъектирован!");
+            #if UNITY_EDITOR
+           
+            if (ProjectContext.HasInstance)
+            {
+                _sceneLoader = ProjectContext.Instance.Container.Resolve<ISceneLoader>();
+            }
+            #endif
+        }
 
-        _sceneLoader.LoadScene(_nextSceneType);
+        if (_sceneLoader != null)
+        {
+            Debug.Log($"Загрузка сцены: {_nextSceneType}");
+
+            _sceneLoader.LoadScene(_nextSceneType);
+        }
+        else
+        {
+            Debug.LogError("Не удалось получить SceneLoader!");
+        }
     }
 
     private void OnValidate()
     {
-        if (_timerText != null && Application.isPlaying == false)
+        if (_timerText != null)
         {
-            _timerText.text = $"Осталось {Mathf.CeilToInt(_currentTime)} сек.";
+            _timerText.text = $"Осталось {_initialTime} сек.";
         }
     }
 }

@@ -1,30 +1,28 @@
 using UnityEngine;
+using UnityEngine.UI;
 using Zenject;
 
 public class SceneButton : MonoBehaviour
 {   
     private ISceneLoader _sceneLoader;
-    private bool _isInjected = false;
-
-    [field: SerializeField] public SceneType SceneType { get; private set; }
+    private Button _button;   
 
     [Inject]
     public void Construct(ISceneLoader sceneLoader)
     {
-        _sceneLoader = sceneLoader;
-        _isInjected = true;
+        _sceneLoader = sceneLoader;        
     }
+
+    [field: SerializeField] public SceneType SceneType { get; private set; }
 
     public void OnClick()
     {
-        if (!_isInjected)
+        if (_sceneLoader == null)
         {
-            Debug.LogError("Попытка использования до инъекции!");
-
-            return;
+            _sceneLoader = ProjectContext.Instance.Container.Resolve<ISceneLoader>();
         }
 
-        Debug.Log($"Щелкнула кнопка: {gameObject.name}");
+        Debug.Log($"Нажата кнопка: {gameObject.name}");
 
         if (_sceneLoader == null)
         {
@@ -43,15 +41,12 @@ public class SceneButton : MonoBehaviour
         Debug.Log($"Загрузка сцены: {SceneType}");
 
         _sceneLoader.LoadScene(SceneType);
-    }    
+    }
 
-    private void OnValidate()
+    private void Awake()
     {
-        if (TryGetComponent<UnityEngine.UI.Button>(out var button) && Application.isPlaying == false)
-        {            
-            button.onClick.RemoveAllListeners();
-           
-            button.onClick.AddListener(OnClick);
-        }
+        _button = GetComponent<Button>();
+
+        _button.onClick.AddListener(OnClick);
     }
 }
